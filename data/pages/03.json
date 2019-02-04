@@ -1,0 +1,44 @@
+{
+  "page": {
+    "meta": {
+      "title": "Nossa linguagem"
+    },
+    "header": {
+      "number": "03",
+      "title": "Nossa linguagem",
+      "text": "Nós sabemos que cada pessoa tem seu jeito de falar, mas quando falamos pelo Labi estamos representando todas as pessoas que trabalham com a gente. Por isso, precisamos TODOS falar a mesma língua!",
+      "cta": "Nossa linguagem"
+    },
+    "footer": {
+      "href": "/04-comunicacao-por-canal"
+    }
+  },
+  "linguage1": {
+    "title": "NOSSA LINGUAGEM ATIVA",
+    "list": [
+      {
+        "text": "Quando nós <strong>começamos</strong> uma conversa."
+      },
+      {
+        "text": "Quando estamos <strong>entrando em contato</strong> com alguém pelo telefone, e-mail ou redes sociais."
+      },
+      {
+        "text": "Quando <strong>abordamos alguém</strong> para oferecer ajuda ou passar informação."
+      }
+    ]
+  },
+  "linguage2": {
+    "title": "NOSSA LINGUAGEM REATIVA",
+    "list": [
+      {
+        "text": "Quando <strong>outra pessoa começa uma conversa</strong> com a gente."
+      },
+      {
+        "text": "Quando um <strong>paciente nos chama</strong> em algum dos nossos canais de atendimento."
+      },
+      {
+        "text": "Quando pacientes <strong>interagem conosco</strong> nas nossas redes sociais <strong>de forma espontânea</strong>."
+      }
+    ]
+  }
+}

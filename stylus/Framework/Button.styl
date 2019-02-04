@@ -1,0 +1,69 @@
+.Btn, a.Btn, button.Btn
+  padding 0px 16px
+  cursor pointer
+  border-radius 32px
+  display inline-block
+  text-decoration none
+  color $color_primary
+  transtionAll()
+  font-size 14px
+  border none
+  h(48px);
+  line-height: 48px;
+  min-width: 242px;
+  text-transform: uppercase;
+  bg($color_secondary);
+  font-family: 'Saira', 'Roboto', sans-serif;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  &.BtnIcon
+    min-width: 222px;
+    padding-right: 40px;
+    .Icon
+      position: absolute;
+      padding-left: 8px;
+  &:hover
+    filter brightness(.8)
+  &.BtnInverted
+    color $color_secondary
+    bg($color_primary)
+  &.BtnOutline
+    border: 2px solid $color_secondary;
+    color: $color_secondary;
+    bg($color_primary);
+  &.BtnOutlineInverted
+    border: 2px solid $color_primary;
+    color: $color_primary;
+    bg($color_secondary);
+
+.ButtonIcon
+  position: relative;
+  zindex(1);
+  a
+    color: $color_primary;
+    &:hover
+      .Icon
+        transform: scale(1.1);
+  .Icon
+    w(56px);
+    h(56px);
+    line-height: 56px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 8px 10px rgba($color_primary, .2)
+    bg($color_secondary);
+    transitionAll();
+  .Text
+    h(36px);
+    display: inline-block;
+    line-height: 36px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding-right: 16px;
+    padding-left: 32px;
+    margin-left: -24px;
+    bg(white);
+    top: -2px;
+    position: relative;
+    zindex(-1);

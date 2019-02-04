@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Começando pelo Básico",
+    "href": "/01-comecando-pelo-basico",
+    "number": "01"
+  },
+  {
+    "text": "Colocando em Prática",
+    "href": "/02-colocando-em-pratica",
+    "number": "02"
+  },
+  {
+    "text": "Nossa Linguagem",
+    "href": "/03-nossa-linguagem",
+    "number": "03"
+  },
+  {
+    "text": "Comunicação por Canal",
+    "href": "/04-comunicacao-por-canal",
+    "number": "04"
+  },
+  {
+    "text": "Respostas Certeiras",
+    "href": "/05-respostas-certeiras",
+    "number": "05"
+  },
+  {
+    "text": "Glossário",
+    "href": "/06-glossario",
+    "number": "06"
+  }
+]

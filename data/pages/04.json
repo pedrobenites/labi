@@ -1,0 +1,16 @@
+{
+  "page": {
+    "meta": {
+      "title": "Comunicação por canal"
+    },
+    "header": {
+      "number": "04",
+      "title": "Comunicação por canal",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "cta": "Nossos canais"
+    },
+    "footer": {
+      "href": "/05-respostas-certeiras"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Lab",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
+  },
+  "dependencies": {
+    "@zeit/next-stylus": "^1.0.1",
+    "babel-plugin-module-resolver": "^3.1.3",
+    "classnames": "^2.2.6",
+    "next": "^7.0.2",
+    "rc-scroll-anim": "^2.5.6",
+    "react": "^16.7.0",
+    "react-dangerous-html": "^1.0.0",
+    "react-dom": "^16.7.0",
+    "react-slick": "^0.23.2",
+    "rupture": "^0.7.1",
+    "styled-components": "^4.1.3",
+    "stylus": "^0.54.5",
+    "terser": "3.14"
+  },
+  "license": "ISC"
+}

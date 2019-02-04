@@ -1,0 +1,30 @@
+$collapseHeight = 56px
+.Collapse
+  .CollapseHead
+    padding: 0 24px;
+    h($collapseHeight);
+    bg($color_lightgray);
+    cursor: pointer;
+    color: $color_primary;
+    transitionAll();
+    .Icon
+      transitionAll();
+    &:hover
+      filter brightness(.95)
+  .CollapseBody
+    overflow: hidden;
+    transitionAll();
+  &.Open
+    .Icon
+      transform: rotate(45deg);
+  &.CollapseFull
+    .CollapseHead
+      h(96px);
+      .Title,
+      .Step
+        font-size: 18px;
+        font-family: Saira, Roboto, sans-serif;
+      .Title
+        font-weight: 100;
+      .Step
+        padding-bottom: 4px;

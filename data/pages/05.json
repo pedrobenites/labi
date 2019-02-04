@@ -1,0 +1,50 @@
+{
+  "page": {
+    "meta": {
+      "title": "Respostas rápidas e certeiras"
+    },
+    "header": {
+      "number": "05",
+      "title": "Respostas rápidas e certeiras",
+      "text": "Na nossa sessão de respostas rápidas e certeiras você vai encontrar dicas de como responder as perguntas mais comuns que recebemos no nosso dia a dias.",
+      "cta": "Nossas respostas"
+    },
+    "footer": {
+      "href": "/06-glossario"
+    }
+  },
+  "faq": [
+    {
+      "title": "Quem somos nós",
+      "description": "description"
+    },
+    {
+      "title": "Como fazer exames",
+      "description": "description"
+    },
+    {
+      "title": "Pagamento e Convênios",
+      "description": "description"
+    },
+    {
+      "title": "Agendamento",
+      "description": "description"
+    },
+    {
+      "title": "Resultados de Exames",
+      "description": "description"
+    },
+    {
+      "title": "Necessidade de Recoleta",
+      "description": "description"
+    },
+    {
+      "title": "Atraso no Resultado",
+      "description": "description"
+    },
+    {
+      "title": "Outras Dúvidas Comuns",
+      "description": "description"
+    }
+  ]
+}

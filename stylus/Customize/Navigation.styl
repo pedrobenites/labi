@@ -1,0 +1,74 @@
+.Navigation
+  z-index: 20;
+  position: fixed;
+  h($navHeight);
+  w(100%);
+  top: 0;
+  left: 0;
+  .Wrapper
+    position: relative;
+  .Brand
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    h($navHeight);
+    line-height: $navHeight;
+  .Menu
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    transitionAll();
+    top: $navHeight;
+    left: 0;
+    w(100%);
+    bg($color_primary);
+    h('calc(100vh - %s)' %$navHeight);
+    a
+      display: inline-block;
+      padding: 12px;
+      transitionAll();
+      &:hover
+        color: $color_secondary;
+    .Number
+      w(2em);
+
+.Hamburger
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  h($navHeight);
+  w($navHeight);
+  span
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    display: block;
+    height: 2px;
+    bg($color_secondary);
+    width: 24px;
+    transition: all ease .3s;
+    &:nth-child(1)
+      transform: translateY(-8px);
+    &:nth-child(2)
+      opacity: 1;
+    &:nth-child(3)
+      transform: translateY(8px);
+
+.Open
+  &.Navigation
+    .Menu
+      opacity: 1;
+      visibility: visible;
+    .Hamburger
+      span
+        &:nth-child(1)
+          transform: rotate(45deg);
+        &:nth-child(2)
+          transform: rotate(45deg);
+          opacity: 0;
+        &:nth-child(3)
+          transform: rotate(-45deg);

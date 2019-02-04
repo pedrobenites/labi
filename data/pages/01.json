@@ -1,0 +1,26 @@
+{
+  "page": {
+    "meta": {
+      "title": "Começando pelo básico"
+    },
+    "header": {
+      "number": "01",
+      "title": "Começando pelo básico",
+      "text": "O básico é o que todos nós precisamos ter na ponta da língua! E, na verdade, até já temos. Mas sempre vale repetir.",
+      "cta": "Nossos valores"
+    },
+    "footer": {
+      "href": "/02-colocando-em-pratica"
+    }
+  },
+  "faq": [
+    {
+      "title": "O que fazer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore."
+    },
+    {
+      "title": "O que evitar",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore."
+    }
+  ]
+}
