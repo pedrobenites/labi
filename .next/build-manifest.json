@@ -1,65 +1,57 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_0a5735af42686c2a38b2.js"
+  ],
   "pages": {
-    "/01-comecando-pelo-basico": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
-    ],
-    "/02-colocando-em-pratica": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
-    ],
-    "/03-nossa-linguagem": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
-    ],
-    "/04-comunicacao-por-canal": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
-    ],
-    "/05-respostas-certeiras": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
-    ],
-    "/06-glossario": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
-    ],
-    "/index": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
-    ],
     "/_app": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/03-nossa-linguagem": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/06-glossario": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/01-comecando-pelo-basico": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/02-colocando-em-pratica": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/04-comunicacao-por-canal": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.08654add.chunk.css",
-      "static/chunks/commons.63d59f572654314a1174.js",
-      "static/runtime/main-a990ad964468a22ae584.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ]
   }
 }

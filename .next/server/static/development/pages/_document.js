@@ -177,15 +177,15 @@ function (_Document) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+        href: "https://fonts.googleapis.com/css?family=Saira:200,500,600",
         rel: "stylesheet",
-        href: "//cdn.materialdesignicons.com/3.4.93/css/materialdesignicons.min.css",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
-        href: "https://fonts.googleapis.com/css?family=Saira:200,500,600",
+        href: "https://fonts.googleapis.com/css?family=Roboto:300,700",
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
@@ -209,7 +209,6 @@ function (_Document) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
-        className: "BGLightGray",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20

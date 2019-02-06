@@ -12,7 +12,7 @@ import ScrollTo from 'components/Common/ScrollTo'
 const summary = glossary.map(({ letter }) => ({letter}))
 
 export default () => (
-  <PageView {...page} className="BGWhite">
+  <PageView {...page}>
     <div className="PT40" />
     <SectionGlossary />
     <LastSection />
@@ -23,7 +23,7 @@ const SectionGlossary = () => (
   <section className="PV2x">
     <div className="PV24 AutoSlider">
       <div className="Flex Wrapper">
-        <div className="MAuto Flex JCCenter PH24">
+        <div className="MHAuto Flex JCCenter PH24">
           <ComponentList component={Summary}>
             {summary}
           </ComponentList>
@@ -48,7 +48,7 @@ const Summary = ({ letter }) => (
 )
 
 const Collection = ({ letter, list }) => (
-  <div id={letter} className="PV1x TextCenter W80 MAuto">
+  <div id={letter} className="PV1x TextCenter W80 MHAuto">
     <div className="Saira FS80 ColorPrimary">{letter}</div>
     <ComponentList component={CollectionItem}>
       {list}

@@ -8,20 +8,25 @@ import Link from 'components/Common/Link'
 export default class Navigation extends Component {
   state = { open: false }
 
+  closeMenu = () => this.setState({ open: false })
+
   render = () => (
     <nav className={classNames('PL24 PR12 Navigation BGPrimary', { Open: this.state.open })}>
       <div className="Wrapper">
-        <Brand />
-        <Menu />
+        <Brand onClick={this.closeMenu} />
+        <Menu onClick={this.closeMenu} />
         <Hamburger onClick={() => this.setState({ open: !this.state.open})} />
       </div>
     </nav>
   )
 }
 
-const Brand = () => (
-  <Link href="/" className="Brand ColorSecondary Saira SairaStrong FS5x">
-    Labi
+const Brand = ({ onClick }) => (
+  <Link
+    href="/"
+    className="Brand ColorSecondary Saira SairaStrong FS5x"
+    onClick={onClick}>
+    <img src="/static/img/lab_logo.svg" alt="Lab" />
   </Link>
 )
 
@@ -33,9 +38,9 @@ const Hamburger = ({ onClick }) => (
   </div>
 )
 
-const Menu = () => (
+const Menu = ({ onClick }) => (
   <div className="Menu Flex JCCenter AICenter">
-    <div>
+    <div onClick={onClick}>
       <ComponentList component={MenuItem}>
         {data}
       </ComponentList>

@@ -30,7 +30,7 @@ const Section1 = () => (
 const Slide1 = () => (
   <Slide>
     <div className="ColorPrimary Saira FS80">a.</div>
-    <p className="FS6x ColorGray PV1x">
+    <p className="FS6x ColorGray PV2x">
       Não medimos esforços para <strong className="ColorPrimary">cuidar do nosso cliente</strong> e <strong className="ColorPrimary">todos os detalhes importam</strong>.
     </p>
   </Slide>
@@ -39,7 +39,7 @@ const Slide1 = () => (
 const Slide2 = () => (
   <Slide>
     <div className="ColorPrimary Saira FS80">b.</div>
-    <p className="FS6x ColorGray PV1x">
+    <p className="FS6x ColorGray PV2x">
       Não medimos esforços para.
     </p>
   </Slide>
@@ -48,7 +48,7 @@ const Slide2 = () => (
 const Slide3 = () => (
   <Slide>
     <div className="ColorPrimary Saira FS80">c.</div>
-    <p className="FS6x ColorGray PV1x">
+    <p className="FS6x ColorGray PV2x">
       Não medimos esforços para.
     </p>
   </Slide>
@@ -67,9 +67,11 @@ const Section2 = () => (
 
 const Section3 = () => (
   <Section className="TextCenter BGWhite" full>
-    <Thumbnail src="http://www.clinicaacolher.com.br/uploads/images/paginas/6.jpg" />
-    <H2>Acolher</H2>
-    <P>Fazemos os pacientes se sentirem especiais com um tratamento empático e humanizado.</P>
+    <div className="W80 MHAuto">
+      <Thumbnail src="http://www.clinicaacolher.com.br/uploads/images/paginas/6.jpg" />
+      <H2>Acolher</H2>
+      <P>Fazemos os pacientes se sentirem especiais com um tratamento empático e humanizado.</P>
+    </div>
     <ComponentList component={Collapse}>
       {faq}
     </ComponentList>

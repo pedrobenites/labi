@@ -18,7 +18,8 @@
       "color": "#F5F5F5",
       "step": "ETAPA 1",
       "title": "Conhecimento",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "full": true
     },
     {
       "color": "#F0F0F0",

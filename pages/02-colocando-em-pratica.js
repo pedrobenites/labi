@@ -10,7 +10,7 @@ import PageView from 'components/Views/PageView'
 import Section from 'components/HTML/Section'
 
 export default () => (
-  <PageView {...page} className="BGWhite">
+  <PageView {...page}>
     <Section1 />
     <Section2 />
   </PageView>
@@ -18,16 +18,12 @@ export default () => (
 
 const Section1 = () => (
   <section className="PT40">
-    <div className="Container PV2x">
-      <div className="TextCenter PH16">
-        <P>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-        </P>
-      </div>
-      <ComponentList component={Collapse} componentProps={{ full: true }}>
-        {faq}
-      </ComponentList>
+    <div className="Container TextCenter PH32 PT2x">
+      <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</P>
     </div>
+    <ComponentList component={Collapse} componentProps={{ noMargin: true }}>
+      {faq}
+    </ComponentList>
   </section>
 )
 

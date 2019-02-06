@@ -3,7 +3,7 @@ import Icon from 'components/Common/Icon'
 import Link from 'components/Common/Link'
 
 export default ({ title, youtubeSlug }) => (
-  <div className="PV8">
+  <div className="PV8 HistoryCard">
     <Link className="Card BGWhite" href="/">
       <div className="Flex JCSpaceBetween">
         <div className="FS4x">
@@ -14,10 +14,7 @@ export default ({ title, youtubeSlug }) => (
             {title}
           </div>
         </div>
-        <Icon
-          name="triangle-outline"
-          size={3}
-          style={{ transform: 'rotate(90deg)' }} />
+        <img src="/static/img/ic_play_arrow_24px.svg" />
       </div>
     </Link>
   </div>

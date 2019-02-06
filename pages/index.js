@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from 'components/Common/Button'
-import ButtonIcon from 'components/Common/ButtonIcon'
+import Link from 'components/Common/Link'
 import MainView from 'components/Views/MainView'
 
 export default () => (
@@ -24,12 +24,27 @@ export default () => (
 )
 
 const Header = () => (
-  <header className="Header Spacer">
-    <div className="Container PV2x TextCenter">
-      <h1 className="Saira SairaLight FS8x ColorWhite">
-        Bem-vindo ao Guia de Cultura do Labi Exames
-      </h1>
-      <ButtonIcon icon="video-outline">Veja o vídeo</ButtonIcon>
-    </div>
-  </header>
+  <div className="Header PB1x">
+    <header className="Spacer">
+      <div className="Container P2x TextCenter">
+        <h1 className="Saira SairaLight FS8x ColorWhite">
+          Bem-vindo ao Guia de Cultura do Labi Exames
+        </h1>
+      </div>
+    </header>
+    <ButtonIcon icon="video-outline">Veja o vídeo</ButtonIcon>
+  </div>
+)
+
+const ButtonIcon = ({ children, icon, ...props }) => (
+  <div className="ButtonIcon Pointer">
+    <Link className="Flex AICenter JCCenter" {...props}>
+      <div className="Icon">
+        <img src="/static/img/ic_videocam_24px.svg" />
+      </div>
+      <div className="Text Saira">
+        <div>{children}</div>
+      </div>
+    </Link>
+  </div>
 )

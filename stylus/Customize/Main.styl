@@ -3,6 +3,7 @@ body
 
 hr
   border-color: rgba(#CCC, .4);
+  margin: 0;
 
 .Saira
   font-family: 'Saira', sans-serif;
@@ -12,13 +13,12 @@ hr
     font-weight: bold;
 
 .Spacer
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  min-height: 100px;
-  margin-bottom: 40px;
-  +above('sm')
-    margin-bottom: 80px;
-  +above('md')
-    margin-bottom: 100px;
+  min-height: 180px;
+  margin-bottom: 20px;
   &:after,
   &:before
     content: ''

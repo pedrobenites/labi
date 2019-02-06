@@ -16,9 +16,7 @@ export default () => (
     <Section1 />
     <Section2 />
     <SectionLinguage {...linguage1} />
-    <hr />
-    <SectionLinguage {...linguage2} />
-    <hr />
+    <SectionLinguage {...linguage2} className="BGWhite" />
   </PageView>
 )
 
@@ -46,8 +44,8 @@ const Section2 = () => (
 )
 
 
-const SectionLinguage = ({ title, list }) => (
-  <Section full>
+const SectionLinguage = ({ title, list, className }) => (
+  <Section full className={className}>
     <div className="TextCenter PB2x">
       <H2>{title}</H2>
     </div>

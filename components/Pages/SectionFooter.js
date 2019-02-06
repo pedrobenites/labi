@@ -7,10 +7,12 @@ import Section from 'components/HTML/Section'
 export default ({ href, remove }) => {
   if (remove) return null
   return (
-    <Section className="BGLightGray">
+    <Section className="BGLightGray P2x">
       <H2>Vamos adiante?</H2>
-      <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore.</P>
-      <Button className="BtnInverted" icon="arrow-right" href={href}>
+      <P className="PV1x">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore.
+      </P>
+      <Button className="BtnInverted MT4" arrow href={href}>
         Próximo capítulo
       </Button>
     </Section>

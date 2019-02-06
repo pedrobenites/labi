@@ -6,7 +6,7 @@ import PageView from 'components/Views/PageView'
 import Section from 'components/HTML/Section'
 
 export default () => (
-  <PageView {...page} className="BGWhite">
+  <PageView {...page}>
     <div className="PV40"/>
     <Section1 />
   </PageView>

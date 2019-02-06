@@ -13,8 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Icon */ "./components/Common/Icon.js");
-/* harmony import */ var _Link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Link */ "./components/Common/Link.js");
+/* harmony import */ var _Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Link */ "./components/Common/Link.js");
 var _jsxFileName = "/home/ricardo/jobs/lab/components/Common/Button.js";
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -27,34 +26,35 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 
-
 var Button = function Button(_ref) {
   var children = _ref.children,
       className = _ref.className,
-      icon = _ref.icon,
-      props = _objectWithoutProperties(_ref, ["children", "className", "icon"]);
+      arrow = _ref.arrow,
+      props = _objectWithoutProperties(_ref, ["children", "className", "arrow"]);
 
-  var Component = props.href ? _Link__WEBPACK_IMPORTED_MODULE_3__["default"] : 'button';
+  var Component = props.href ? _Link__WEBPACK_IMPORTED_MODULE_2__["default"] : 'button';
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, _extends({
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('Btn', className, {
-      BtnIcon: icon
-    })
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('Btn', className)
   }, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "InlineBlock",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
-  }, children), icon && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Icon__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    name: icon,
-    size: 2,
+  }, children), arrow && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "ML12",
+    style: {
+      top: 3,
+      position: 'relative'
+    },
+    src: "/static/img/ic_arrow-right.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -64,73 +64,6 @@ var Button = function Button(_ref) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Button);
-
-/***/ }),
-
-/***/ "./components/Common/ButtonIcon.js":
-/*!*****************************************!*\
-  !*** ./components/Common/ButtonIcon.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Icon */ "./components/Common/Icon.js");
-/* harmony import */ var _Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Link */ "./components/Common/Link.js");
-var _jsxFileName = "/home/ricardo/jobs/lab/components/Common/ButtonIcon.js";
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-
-
-
-
-var ButtonIcon = function ButtonIcon(_ref) {
-  var children = _ref.children,
-      icon = _ref.icon,
-      props = _objectWithoutProperties(_ref, ["children", "icon"]);
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ButtonIcon W100 TextCenter Pointer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_2__["default"], _extends({
-    className: "InlineBlock"
-  }, props, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Icon__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: icon,
-    size: 2,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "Text Saira",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, children)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (ButtonIcon);
 
 /***/ }),
 
@@ -167,60 +100,6 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     }));
   });
 });
-
-/***/ }),
-
-/***/ "./components/Common/Icon.js":
-/*!***********************************!*\
-  !*** ./components/Common/Icon.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/ricardo/jobs/lab/components/Common/Icon.js";
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-
-
-var fontSize = [null, 18, 24, 36, 48];
-
-var Icon = function Icon(_ref) {
-  var name = _ref.name,
-      size = _ref.size,
-      props = _objectWithoutProperties(_ref, ["name", "size"]);
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", _extends({
-    className: "Icon InlineBlock"
-  }, props, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("mdi mdi-".concat(name), _defineProperty({}, "mdi-".concat(fontSize[size], "px"), size)),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Icon);
 
 /***/ }),
 
@@ -334,6 +213,12 @@ function (_Component) {
       open: false
     });
 
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "closeMenu", function () {
+      return _this.setState({
+        open: false
+      });
+    });
+
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "render", function () {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
         className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('PL24 PR12 Navigation BGPrimary', {
@@ -341,26 +226,28 @@ function (_Component) {
         }),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 14
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "Wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Brand, {
+        onClick: _this.closeMenu,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 16
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Menu, {
+        onClick: _this.closeMenu,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 17
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Hamburger, {
@@ -371,7 +258,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 18
         },
         __self: this
       })));
@@ -385,82 +272,94 @@ function (_Component) {
 
 
 
-var Brand = function Brand() {
+var Brand = function Brand(_ref) {
+  var onClick = _ref.onClick;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Common_Link__WEBPACK_IMPORTED_MODULE_4__["default"], {
     href: "/",
     className: "Brand ColorSecondary Saira SairaStrong FS5x",
+    onClick: onClick,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 25
     },
     __self: this
-  }, "Labi");
-};
-
-var Hamburger = function Hamburger(_ref) {
-  var onClick = _ref.onClick;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Hamburger",
-    onClick: onClick,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/img/lab_logo.svg",
+    alt: "Lab",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
   }));
 };
 
-var Menu = function Menu() {
+var Hamburger = function Hamburger(_ref2) {
+  var onClick = _ref2.onClick;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Menu Flex JCCenter AICenter",
+    className: "Hamburger",
+    onClick: onClick,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }));
+};
+
+var Menu = function Menu(_ref3) {
+  var onClick = _ref3.onClick;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Menu Flex JCCenter AICenter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    onClick: onClick,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Common_ComponentList__WEBPACK_IMPORTED_MODULE_3__["default"], {
     component: MenuItem,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 44
     },
     __self: this
   }, _data_navigation_json__WEBPACK_IMPORTED_MODULE_2__)));
 };
 
-var MenuItem = function MenuItem(_ref2) {
-  var text = _ref2.text,
-      number = _ref2.number,
-      href = _ref2.href;
+var MenuItem = function MenuItem(_ref4) {
+  var text = _ref4.text,
+      number = _ref4.number,
+      href = _ref4.href;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "MenuItem",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Common_Link__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -468,21 +367,21 @@ var MenuItem = function MenuItem(_ref2) {
     className: "ColorWhite",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "Saira InlineBlock ColorSecondary FS6x Number",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 54
     },
     __self: this
   }, number), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "Saira SairaLight InlineBlock FS4x Text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 57
     },
     __self: this
   }, text)));
@@ -556,7 +455,7 @@ var MainView = function MainView(_ref) {
 /*! exports provided: 0, 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = [{"text":"Começando pelo Básico","href":"01-comecando-pelo-basico","number":"01"},{"text":"Colocando em Prática","href":"02-colocando-em-pratica","number":"02"},{"text":"Nossa Linguagem","href":"03-nossa-linguagem","number":"03"},{"text":"Comunicação por Canal","href":"04-comunicacao-por-canal","number":"04"},{"text":"Respostas Certeiras","href":"05-respostas-certeiras","number":"05"},{"text":"Glossário","href":"06-glossario","number":"06"}];
+module.exports = [{"text":"Começando pelo Básico","href":"/01-comecando-pelo-basico","number":"01"},{"text":"Colocando em Prática","href":"/02-colocando-em-pratica","number":"02"},{"text":"Nossa Linguagem","href":"/03-nossa-linguagem","number":"03"},{"text":"Comunicação por Canal","href":"/04-comunicacao-por-canal","number":"04"},{"text":"Respostas Certeiras","href":"/05-respostas-certeiras","number":"05"},{"text":"Glossário","href":"/06-glossario","number":"06"}];
 
 /***/ }),
 
@@ -10985,9 +10884,16 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Common_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Common/Button */ "./components/Common/Button.js");
-/* harmony import */ var _components_Common_ButtonIcon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Common/ButtonIcon */ "./components/Common/ButtonIcon.js");
+/* harmony import */ var _components_Common_Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Common/Link */ "./components/Common/Link.js");
 /* harmony import */ var _components_Views_MainView__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Views/MainView */ "./components/Views/MainView.js");
 var _jsxFileName = "/home/ricardo/jobs/lab/pages/index.js";
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
 
 
 
@@ -11059,35 +10965,92 @@ var _jsxFileName = "/home/ricardo/jobs/lab/pages/index.js";
 });
 
 var Header = function Header() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-    className: "Header Spacer",
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Header PB1x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Container PV2x TextCenter",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+    className: "Spacer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Container P2x TextCenter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "Saira SairaLight FS8x ColorWhite",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
-  }, "Bem-vindo ao Guia de Cultura do Labi Exames"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_ButtonIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Bem-vindo ao Guia de Cultura do Labi Exames"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ButtonIcon, {
     icon: "video-outline",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     },
     __self: this
-  }, "Veja o v\xEDdeo")));
+  }, "Veja o v\xEDdeo"));
+};
+
+var ButtonIcon = function ButtonIcon(_ref) {
+  var children = _ref.children,
+      icon = _ref.icon,
+      props = _objectWithoutProperties(_ref, ["children", "icon"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "ButtonIcon Pointer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_Link__WEBPACK_IMPORTED_MODULE_2__["default"], _extends({
+    className: "Flex AICenter JCCenter"
+  }, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/img/ic_videocam_24px.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Text Saira",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, children))));
 };
     (function (Component, route) {
       if(!Component) return
@@ -11111,7 +11074,7 @@ var Header = function Header() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 10:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -11136,5 +11099,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[10,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map

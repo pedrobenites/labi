@@ -1,14 +1,18 @@
 import React from 'react'
 import classNames from 'classnames'
-import Icon from 'components/Common/Icon'
 import Link from 'components/Common/Link'
 
-const Button = ({ children, className, icon, ...props }) => {
+const Button = ({ children, className, arrow, ...props }) => {
   const Component = props.href ? Link : 'button'
   return (
-    <Component className={classNames('Btn', className, { BtnIcon: icon })} {...props}>
+    <Component className={classNames('Btn', className)} {...props}>
       <span className="InlineBlock">{children}</span>
-      {icon && <Icon name={icon} size={2} />}
+      {arrow && (
+        <img
+          className="ML12"
+          style={{ top: 3, position: 'relative' }}
+          src="/static/img/ic_arrow-right.svg" />
+      )}
     </Component>
   )
 }

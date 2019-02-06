@@ -1,4 +1,5 @@
 .Btn, a.Btn, button.Btn
+  box-sizing: border-box;
   padding 0px 16px
   cursor pointer
   border-radius 32px
@@ -10,19 +11,13 @@
   border none
   h(48px);
   line-height: 48px;
-  min-width: 242px;
+  min-width: 256px;
   text-transform: uppercase;
   bg($color_secondary);
   font-family: 'Saira', 'Roboto', sans-serif;
   position: relative;
   display: inline-block;
   text-align: center;
-  &.BtnIcon
-    min-width: 222px;
-    padding-right: 40px;
-    .Icon
-      position: absolute;
-      padding-left: 8px;
   &:hover
     filter brightness(.8)
   &.BtnInverted
@@ -48,8 +43,9 @@
   .Icon
     w(56px);
     h(56px);
-    line-height: 56px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     box-shadow: 0 8px 10px rgba($color_primary, .2)
     bg($color_secondary);
@@ -64,6 +60,4 @@
     padding-left: 32px;
     margin-left: -24px;
     bg(white);
-    top: -2px;
-    position: relative;
     zindex(-1);
