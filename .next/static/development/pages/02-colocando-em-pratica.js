@@ -141,8 +141,8 @@ function (_Component) {
         className: classnames__WEBPACK_IMPORTED_MODULE_1___default()({
           Container: !_this.props.full,
           Open: _this.state.open,
-          P8: !_this.props.noMargin,
-          CollapseFull: _this.props.noMargin
+          P8: !_this.props.full,
+          CollapseFull: _this.props.full
         }, 'Collapse'),
         __source: {
           fileName: _jsxFileName,
@@ -1099,7 +1099,7 @@ module.exports = [{"text":"Começando pelo Básico","href":"/01-comecando-pelo-b
 /*! exports provided: page, faq, historys, default */
 /***/ (function(module) {
 
-module.exports = {"page":{"meta":{"title":"Colocando em prática"},"header":{"number":"02","title":"Colocando em prática","text":"Agora que já sabemos quem somos na teoria, vamos ver como isso funciona no nosso dia- a- dia!","cta":"Nossa experiência"},"footer":{"href":"03-nossa-linguagem"}},"faq":[{"color":"#F5F5F5","step":"ETAPA 1","title":"Conhecimento","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.","full":true},{"color":"#F0F0F0","step":"ETAPA 2","title":"Compra","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"color":"#EBEBEB","step":"ETAPA 3","title":"Coleta de Exame","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"color":"#E6E6E6","step":"ETAPA 4","title":"Resultado","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."}],"historys":[{"title":"Da professora Bia","youtubeSlug":""},{"title":"Da vó Catarina","youtubeSlug":""}]};
+module.exports = {"page":{"meta":{"title":"Colocando em prática"},"header":{"number":"02","title":"Colocando em prática","text":"Agora que já sabemos quem somos na teoria, vamos ver como isso funciona no nosso dia- a- dia!","cta":"Nossa experiência"},"footer":{"href":"03-nossa-linguagem"}},"faq":[{"color":"#F5F5F5","step":"ETAPA 1","title":"Conhecimento","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"color":"#F0F0F0","step":"ETAPA 2","title":"Compra","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"color":"#EBEBEB","step":"ETAPA 3","title":"Coleta de Exame","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"color":"#E6E6E6","step":"ETAPA 4","title":"Resultado","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."}],"historys":[{"title":"Da professora Bia","youtubeSlug":""},{"title":"Da vó Catarina","youtubeSlug":""}]};
 
 /***/ }),
 
@@ -11597,7 +11597,7 @@ var Section1 = function Section1() {
   }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_ComponentList__WEBPACK_IMPORTED_MODULE_3__["default"], {
     component: _components_Common_Collapse__WEBPACK_IMPORTED_MODULE_2__["default"],
     componentProps: {
-      noMargin: true
+      full: true
     },
     __source: {
       fileName: _jsxFileName,
@@ -11666,7 +11666,7 @@ var Section2 = function Section2() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!************************************************!*\
   !*** multi ./pages/02-colocando-em-pratica.js ***!
   \************************************************/
@@ -11691,5 +11691,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[6,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=02-colocando-em-pratica.js.map

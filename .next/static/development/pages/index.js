@@ -11074,7 +11074,7 @@ var ButtonIcon = function ButtonIcon(_ref) {
 
 /***/ }),
 
-/***/ 10:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -11099,5 +11099,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map

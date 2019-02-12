@@ -21,7 +21,7 @@ const Section1 = () => (
     <div className="Container TextCenter PH32 PT2x">
       <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</P>
     </div>
-    <ComponentList component={Collapse} componentProps={{ noMargin: true }}>
+    <ComponentList component={Collapse} componentProps={{ full: true }}>
       {faq}
     </ComponentList>
   </section>

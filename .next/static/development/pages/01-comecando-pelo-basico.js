@@ -141,8 +141,8 @@ function (_Component) {
         className: classnames__WEBPACK_IMPORTED_MODULE_1___default()({
           Container: !_this.props.full,
           Open: _this.state.open,
-          P8: !_this.props.noMargin,
-          CollapseFull: _this.props.noMargin
+          P8: !_this.props.full,
+          CollapseFull: _this.props.full
         }, 'Collapse'),
         __source: {
           fileName: _jsxFileName,
@@ -16003,7 +16003,7 @@ var Section3 = function Section3() {
 
 /***/ }),
 
-/***/ 9:
+/***/ 5:
 /*!*************************************************!*\
   !*** multi ./pages/01-comecando-pelo-basico.js ***!
   \*************************************************/
@@ -16028,5 +16028,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]));;
+},[[5,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=01-comecando-pelo-basico.js.map

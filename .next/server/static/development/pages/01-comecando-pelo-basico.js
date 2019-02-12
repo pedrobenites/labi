@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -234,8 +234,8 @@ function (_Component) {
         className: classnames__WEBPACK_IMPORTED_MODULE_1___default()({
           Container: !_this.props.full,
           Open: _this.state.open,
-          P8: !_this.props.noMargin,
-          CollapseFull: _this.props.noMargin
+          P8: !_this.props.full,
+          CollapseFull: _this.props.full
         }, 'Collapse'),
         __source: {
           fileName: _jsxFileName,
@@ -1517,7 +1517,7 @@ var Section3 = function Section3() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 4:
 /*!*************************************************!*\
   !*** multi ./pages/01-comecando-pelo-basico.js ***!
   \*************************************************/

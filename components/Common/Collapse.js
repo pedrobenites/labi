@@ -14,8 +14,8 @@ export default class extends Component {
         {
           Container: !this.props.full,
           Open: this.state.open,
-          P8: !this.props.noMargin,
-          CollapseFull: this.props.noMargin
+          P8: !this.props.full,
+          CollapseFull: this.props.full
         },
         'Collapse',
       )}>
