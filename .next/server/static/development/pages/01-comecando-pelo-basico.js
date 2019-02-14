@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -175,6 +175,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "classnames");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Icon */ "./components/Common/Icon.js");
+/* harmony import */ var _HTML_P__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../HTML/P */ "./components/HTML/P.js");
 var _jsxFileName = "/home/ricardo/jobs/lab/components/Common/Collapse.js";
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -202,6 +203,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -239,7 +241,7 @@ function (_Component) {
         }, 'Collapse'),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CollapseHead, {
@@ -253,7 +255,7 @@ function (_Component) {
         title: _this.props.title,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -263,7 +265,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -271,14 +273,15 @@ function (_Component) {
         style: _this.style,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "ColorGray SingleSpace",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HTML_P__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: _this.props.classNameBody,
+        notUseClassNameDefault: _this.props.notUseClassNameDefault,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         },
         __self: this
       }, _this.props.description))));
@@ -307,39 +310,46 @@ var CollapseHead = function CollapseHead(_ref) {
       props = _objectWithoutProperties(_ref, ["title", "step"]);
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, props, {
-    className: "Flex JCSpaceBetween AICenter CollapseHead",
+    className: "CollapseHead Flex AICenter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 44
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Container Flex JCSpaceBetween AICenter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
     },
     __self: this
   }, step && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Step",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 47
     },
     __self: this
   }, step), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 48
     },
     __self: this
   }, title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconPlus, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 50
     },
     __self: this
-  }));
+  })));
 };
 
 var IconPlus = function IconPlus() {
@@ -349,7 +359,7 @@ var IconPlus = function IconPlus() {
     viewBox: "0 0 24 24",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
@@ -357,7 +367,7 @@ var IconPlus = function IconPlus() {
     d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 57
     },
     __self: this
   }));
@@ -501,6 +511,22 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 /***/ }),
 
+/***/ "./components/Common/ScrollTo.js":
+/*!***************************************!*\
+  !*** ./components/Common/ScrollTo.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var rc_scroll_anim__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rc-scroll-anim */ "rc-scroll-anim");
+/* harmony import */ var rc_scroll_anim__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(rc_scroll_anim__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ __webpack_exports__["default"] = (rc_scroll_anim__WEBPACK_IMPORTED_MODULE_0___default.a.Link);
+
+/***/ }),
+
 /***/ "./components/HTML/H2.js":
 /*!*******************************!*\
   !*** ./components/HTML/H2.js ***!
@@ -528,6 +554,46 @@ var _jsxFileName = "/home/ricardo/jobs/lab/components/HTML/H2.js";
 
 /***/ }),
 
+/***/ "./components/HTML/HTML.js":
+/*!*********************************!*\
+  !*** ./components/HTML/HTML.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dangerous_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dangerous-html */ "react-dangerous-html");
+/* harmony import */ var react_dangerous_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dangerous_html__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/ricardo/jobs/lab/components/HTML/HTML.js";
+
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var children = _ref.children,
+      props = _objectWithoutProperties(_ref, ["children"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_dangerous_html__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({
+    html: children
+  }, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }));
+});
+
+/***/ }),
+
 /***/ "./components/HTML/P.js":
 /*!******************************!*\
   !*** ./components/HTML/P.js ***!
@@ -543,15 +609,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/home/ricardo/jobs/lab/components/HTML/P.js";
 
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var className = _ref.className,
-      children = _ref.children;
+      children = _ref.children,
+      notUseClassNameDefault = _ref.notUseClassNameDefault;
+  var classNameComponent = classnames__WEBPACK_IMPORTED_MODULE_1___default()(_defineProperty({}, 'ColorBlack SingleSpace PV1x Opacity5', !notUseClassNameDefault), className);
+
+  if (_typeof(children) === _typeof([]) && children.length !== undefined) {
+    return children.map(function (child, key) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: classNameComponent,
+        key: key,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, child);
+    });
+  }
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('ColorBlack SingleSpace PV1x Opacity5', className),
+    className: classNameComponent,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 18
     },
     __self: this
   }, children);
@@ -749,7 +837,7 @@ var Brand = function Brand(_ref) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/img/lab_logo.svg",
+    src: "/static/img/lab_exames.svg",
     alt: "Lab",
     __source: {
       fileName: _jsxFileName,
@@ -1089,9 +1177,11 @@ var sliderSettings = {
   slidesToScroll: 1
 };
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var children = _ref.children;
+  var children = _ref.children,
+      id = _ref.id;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "PT40",
+    id: id,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -1241,10 +1331,10 @@ module.exports = [{"text":"Começando pelo Básico","href":"/01-comecando-pelo-b
 /*!****************************!*\
   !*** ./data/pages/01.json ***!
   \****************************/
-/*! exports provided: page, faq, default */
+/*! exports provided: page, slides, pillars, default */
 /***/ (function(module) {
 
-module.exports = {"page":{"meta":{"title":"Começando pelo básico"},"header":{"number":"01","title":"Começando pelo básico","text":"O básico é o que todos nós precisamos ter na ponta da língua! E, na verdade, até já temos. Mas sempre vale repetir.","cta":"Nossos valores"},"footer":{"href":"/02-colocando-em-pratica"}},"faq":[{"title":"O que fazer","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore."},{"title":"O que evitar","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore."}]};
+module.exports = {"page":{"meta":{"title":"Começando pelo básico"},"header":{"number":"01","title":"Começando pelo básico","text":"O básico é o que todos nós precisamos ter na ponta da língua! E, na verdade, até já temos. Mas sempre vale repetir.","cta":"Nossos valores"},"footer":{"href":"/02-colocando-em-pratica"}},"slides":[{"letter":"a.","text":"Não medimos esforços para <strong>cuidar do nosso cliente</strong> e <strong>todos os detalhes importam</strong>."},{"letter":"b.","text":"A <strong>tecnologia</strong> está no nosso DNA e esse é o nosso <strong></strong>."},{"letter":"c.","text":"Fazemos <strong>mais com menos</strong>."},{"letter":"d.","text":"Pensamos e agimos como um <strong>time</strong>."},{"letter":"e.","text":"Buscamos ser <strong>justos e transparentes sempre</strong>."}],"pillars":[{"imageUrl":"/static/img/Logo_Acolher.svg","title":"Acolher","text":"Fazemos os pacientes se sentirem especiais com um tratamento empático e humanizado.","faq":[{"title":"O que fazer","description":["Seja gentil ao escolher as palavras que escreve nos nossos canais de atendimento on-line","Seja receptivo, pergunte se está tudo bem, ofereça ajuda e, no atendimento pessoal, busque sorrir sempre","Olhe nos olhos das pessoas quando elas falam","Entenda que esta não é uma situação corriqueira para o paciente e faça ele se sentir confortável"]},{"title":"O que evitar","description":["Não fale com outras pessoas enquanto atende um paciente pelo telefone","Não deixe o paciente se sentir pedindo favores","Evite olhar para telas enquanto estiver em uma conversa com um paciente","Não termine o atendimento com uma resposta, faça sempre uma pergunta a mais."]}]},{"imageUrl":"/static/img/Logo_Resolver.svg","title":"Resolver","text":"Oferecemos soluções sob medida e as apresentamos de forma simples e concisa.","faq":[{"title":"O que fazer","description":["Seja prático e objetivo","Domine o conteúdo do seu dia-a-dia","Ofereça orientações claras e sequenciais"]},{"title":"O que evitar","description":["Não seja prolixo ao falar sobre qualquer assunto","Se não tiver uma resposta avise o paciente que você vai em busca de orientação imediatamente","Não dê informações de forma complexa e abstrata usando palavras técnicas e assustadoras"]}]},{"imageUrl":"/static/img/Logo_Facilitar.svg","title":"Facilitar","text":"Materializamos o jeito inteligente como fazemos as coisas no Labi surpreendendo as pessoas com conforto e praticidade.","faq":[{"title":"O que fazer","description":["Vá além da solução óbvia e surpreenda","Ofereça sempre a solução mais cômoda para o paciente","Trate cada caso como um caso único e especial"]},{"title":"O que evitar","description":["Não seja pessimista ao avaliar as possibilidades de solução para o problema do paciente","Não faça uma solução parecer um problema para o dia a dia do paciente","Evite tratamentos massificados ao transformar pessoas em números"]}]}]};
 
 /***/ }),
 
@@ -1264,13 +1354,15 @@ var _data_pages_01_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__
 /* harmony import */ var _components_Common_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Common/Button */ "./components/Common/Button.js");
 /* harmony import */ var _components_Common_Collapse__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Common/Collapse */ "./components/Common/Collapse.js");
 /* harmony import */ var _components_Common_ComponentList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Common/ComponentList */ "./components/Common/ComponentList.js");
-/* harmony import */ var _components_HTML_H2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/HTML/H2 */ "./components/HTML/H2.js");
-/* harmony import */ var _components_HTML_P__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/HTML/P */ "./components/HTML/P.js");
-/* harmony import */ var _components_Views_PageView__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Views/PageView */ "./components/Views/PageView.js");
-/* harmony import */ var _components_HTML_Section__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/HTML/Section */ "./components/HTML/Section.js");
-/* harmony import */ var _components_Slider_Slider__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Slider/Slider */ "./components/Slider/Slider.js");
-/* harmony import */ var _components_Slider_Slide__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Slider/Slide */ "./components/Slider/Slide.js");
-/* harmony import */ var _components_Pages_Thumbnail__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Pages/Thumbnail */ "./components/Pages/Thumbnail.js");
+/* harmony import */ var _components_HTML_HTML__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/HTML/HTML */ "./components/HTML/HTML.js");
+/* harmony import */ var _components_HTML_H2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/HTML/H2 */ "./components/HTML/H2.js");
+/* harmony import */ var _components_HTML_P__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/HTML/P */ "./components/HTML/P.js");
+/* harmony import */ var _components_Views_PageView__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Views/PageView */ "./components/Views/PageView.js");
+/* harmony import */ var _components_HTML_Section__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/HTML/Section */ "./components/HTML/Section.js");
+/* harmony import */ var _components_Common_ScrollTo__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Common/ScrollTo */ "./components/Common/ScrollTo.js");
+/* harmony import */ var _components_Slider_Slider__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Slider/Slider */ "./components/Slider/Slider.js");
+/* harmony import */ var _components_Slider_Slide__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Slider/Slide */ "./components/Slider/Slide.js");
+/* harmony import */ var _components_Pages_Thumbnail__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Pages/Thumbnail */ "./components/Pages/Thumbnail.js");
 var _jsxFileName = "/home/ricardo/jobs/lab/pages/01-comecando-pelo-basico.js";
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1287,221 +1379,186 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
+
+
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_PageView__WEBPACK_IMPORTED_MODULE_7__["default"], _extends({}, _data_pages_01_json__WEBPACK_IMPORTED_MODULE_1__["page"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section1, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section2, {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_PageView__WEBPACK_IMPORTED_MODULE_8__["default"], _extends({}, _data_pages_01_json__WEBPACK_IMPORTED_MODULE_1__["page"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section3, {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionValues, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionPillars, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SectionPillarsSlides, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
   }));
 });
 
-var Section1 = function Section1() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slider__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Slide1, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Slide2, {
+var SectionValues = function SectionValues() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slider__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Slide3, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
+  }, _data_pages_01_json__WEBPACK_IMPORTED_MODULE_1__["slides"].map(function (_ref, key) {
+    var letter = _ref.letter,
+        text = _ref.text;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slide__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      key: key,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "ColorPrimary Saira FS80",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, letter), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_HTML__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      className: "FS6x ColorGray PV2x",
+      tagName: "p",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, parseTextHtmlStrong(text)));
   }));
 };
 
-var Slide1 = function Slide1() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slide__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ColorPrimary Saira FS80",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "a."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "FS6x ColorGray PV2x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "N\xE3o medimos esfor\xE7os para ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    className: "ColorPrimary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "cuidar do nosso cliente"), " e ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    className: "ColorPrimary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "todos os detalhes importam"), "."));
+var parseTextHtmlStrong = function parseTextHtmlStrong(html) {
+  return html.replace(/<strong>/g, '<strong class="ColorPrimary Opacity7">');
 };
 
-var Slide2 = function Slide2() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slide__WEBPACK_IMPORTED_MODULE_10__["default"], {
+var SectionPillars = function SectionPillars() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_Section__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    className: "BGSecondary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ColorPrimary Saira FS80",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_H2__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
-  }, "b."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "FS6x ColorGray PV2x",
+  }, "Mas o que importa \xE9 transformar palavras em a\xE7\xE3o, n\xE3o \xE9 mesmo?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_P__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, "N\xE3o medimos esfor\xE7os para."));
+  }, "Transformamos os nossos valores em 3 pilares, que s\xE3o a nossa f\xF3rmula secreta parade como garantir que todos eles estar\xE3o presentes no nosso dia-a-dia SEMPRE!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_ScrollTo__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    to: "pilares",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    className: "BtnOutlineInverted",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Nossos pilares")));
 };
 
-var Slide3 = function Slide3() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slide__WEBPACK_IMPORTED_MODULE_10__["default"], {
+var SectionPillarsSlides = function SectionPillarsSlides() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slider__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    id: "pilares",
+    className: "TextCenter BGWhite",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 53
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "ColorPrimary Saira FS80",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "c."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "FS6x ColorGray PV2x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, "N\xE3o medimos esfor\xE7os para."));
+  }, _data_pages_01_json__WEBPACK_IMPORTED_MODULE_1__["pillars"].map(function (props, key) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Pillar, _extends({}, props, {
+      key: key,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54
+      },
+      __self: this
+    }));
+  }));
 };
 
-var Section2 = function Section2() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_Section__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    className: "BGSecondary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_H2__WEBPACK_IMPORTED_MODULE_5__["default"], {
+var Pillar = function Pillar(_ref2) {
+  var imageUrl = _ref2.imageUrl,
+      title = _ref2.title,
+      text = _ref2.text,
+      faq = _ref2.faq;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slide__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }, "Mas o que importa \xE9 transformar palavras em a\xE7\xE3o, n\xE3o \xE9 mesmo?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_P__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "P24",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, "Transformamos os nossos valores em 3 pilares, que s\xE3o a nossa f\xF3rmula secreta parade como garantir que todos eles estar\xE3o presentes no nosso dia-a-dia SEMPRE!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: "BtnOutlineInverted",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    style: {
+      display: 'inline'
+    },
+    src: imageUrl,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_H2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_P__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
-  }, "Nossos pilares"));
-};
-
-var Section3 = function Section3() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_Section__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    className: "TextCenter BGWhite",
-    full: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "W80 MHAuto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Pages_Thumbnail__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    src: "http://www.clinicaacolher.com.br/uploads/images/paginas/6.jpg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_H2__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "Acolher"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_P__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }, "Fazemos os pacientes se sentirem especiais com um tratamento emp\xE1tico e humanizado.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_ComponentList__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, text), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_ComponentList__WEBPACK_IMPORTED_MODULE_4__["default"], {
     component: _components_Common_Collapse__WEBPACK_IMPORTED_MODULE_3__["default"],
+    componentProps: {
+      classNameBody: 'M0 TextCenter Opacity5 MB1x',
+      notUseClassNameDefault: true
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 65
     },
     __self: this
-  }, _data_pages_01_json__WEBPACK_IMPORTED_MODULE_1__["faq"]));
+  }, faq));
 };
 
 /***/ }),
@@ -1517,7 +1574,7 @@ var Section3 = function Section3() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*************************************************!*\
   !*** multi ./pages/01-comecando-pelo-basico.js ***!
   \*************************************************/
@@ -1562,6 +1619,17 @@ module.exports = require("next/link");
 
 /***/ }),
 
+/***/ "rc-scroll-anim":
+/*!*********************************!*\
+  !*** external "rc-scroll-anim" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("rc-scroll-anim");
+
+/***/ }),
+
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -1570,6 +1638,17 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-dangerous-html":
+/*!***************************************!*\
+  !*** external "react-dangerous-html" ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dangerous-html");
 
 /***/ }),
 

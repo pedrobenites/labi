@@ -26,7 +26,7 @@ const Brand = ({ onClick }) => (
     href="/"
     className="Brand ColorSecondary Saira SairaStrong FS5x"
     onClick={onClick}>
-    <img src="/static/img/lab_logo.svg" alt="Lab" />
+    <img src="/static/img/lab_exames.svg" alt="Lab" />
   </Link>
 )
 

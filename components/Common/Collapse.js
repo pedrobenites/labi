@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import Icon from 'components/Common/Icon'
+import P from 'components/HTML/P'
 
 export default class extends Component {
   state = { open: false }
@@ -28,7 +29,11 @@ export default class extends Component {
         className="CollapseBody"
         style={{ maxHeight: this.state.open ? 500 : 0 }}>
         <div className="PT24 PB1x PH16 TextLeft" style={this.style}>
-          <p className="ColorGray SingleSpace">{this.props.description}</p>
+          <P
+            className={this.props.classNameBody}
+            notUseClassNameDefault={this.props.notUseClassNameDefault}>
+            {this.props.description}
+          </P>
         </div>
       </div>
     </div>
@@ -36,12 +41,14 @@ export default class extends Component {
 }
 
 const CollapseHead = ({ title, step, ...props }) => (
-  <div {...props} className="Flex JCSpaceBetween AICenter CollapseHead">
-    <div>
-      {step && <div className="Step">{step}</div>}
-      <div className="Title">{title}</div>
+  <div {...props} className="CollapseHead Flex AICenter">
+    <div className="Container Flex JCSpaceBetween AICenter">
+      <div>
+        {step && <div className="Step">{step}</div>}
+        <div className="Title">{title}</div>
+      </div>
+      <IconPlus />
     </div>
-    <IconPlus />
   </div>
 )
 
