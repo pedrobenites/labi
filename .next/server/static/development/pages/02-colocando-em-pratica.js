@@ -258,33 +258,18 @@ function (_Component) {
           lineNumber: 23
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "CollapseBody",
-        style: {
-          maxHeight: _this.state.open ? 500 : 0
-        },
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CollapseBody, {
+        isOpen: _this.state.open,
+        style: _this.style,
+        description: _this.props.description,
+        className: _this.props.classNameBody,
+        notUseClassNameDefault: _this.props.notUseClassNameDefault,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "PT24 PB1x PH16 TextLeft",
-        style: _this.style,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HTML_P__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        className: _this.props.classNameBody,
-        notUseClassNameDefault: _this.props.notUseClassNameDefault,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
-      }, _this.props.description))));
+      }, _this.props.children));
     });
 
     return _this;
@@ -310,46 +295,39 @@ var CollapseHead = function CollapseHead(_ref) {
       props = _objectWithoutProperties(_ref, ["title", "step"]);
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, props, {
-    className: "CollapseHead Flex AICenter",
+    className: "CollapseHead Flex AICenter JCSpaceBetween",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 41
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Container Flex JCSpaceBetween AICenter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 42
     },
     __self: this
   }, step && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Step",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 43
     },
     __self: this
   }, step), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Title",
+    className: "Title Saira Medium",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 44
     },
     __self: this
   }, title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconPlus, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 46
     },
     __self: this
-  })));
+  }));
 };
 
 var IconPlus = function IconPlus() {
@@ -359,7 +337,7 @@ var IconPlus = function IconPlus() {
     viewBox: "0 0 24 24",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
@@ -367,10 +345,44 @@ var IconPlus = function IconPlus() {
     d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 52
     },
     __self: this
   }));
+};
+
+var CollapseBody = function CollapseBody(_ref2) {
+  var description = _ref2.description,
+      isOpen = _ref2.isOpen,
+      style = _ref2.style,
+      children = _ref2.children,
+      props = _objectWithoutProperties(_ref2, ["description", "isOpen", "style", "children"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "CollapseBody",
+    style: {
+      maxHeight: isOpen ? 500 : 0
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "PT24 PB1x PH16 TextLeft",
+    style: style,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, description && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HTML_P__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }), description), children));
 };
 
 /***/ }),
@@ -534,6 +546,47 @@ var _jsxFileName = "/home/ricardo/jobs/lab/components/HTML/H2.js";
     },
     __self: this
   }, children);
+});
+
+/***/ }),
+
+/***/ "./components/HTML/H3.js":
+/*!*******************************!*\
+  !*** ./components/HTML/H3.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "classnames");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/ricardo/jobs/lab/components/HTML/H3.js";
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var children = _ref.children,
+      className = _ref.className,
+      props = _objectWithoutProperties(_ref, ["children", "className"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", _extends({
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('ColorPrimary Saira FS5x', className)
+  }, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }), children);
 });
 
 /***/ }),
@@ -1095,6 +1148,118 @@ var _jsxFileName = "/home/ricardo/jobs/lab/components/Pages/SectionHeader.js";
 
 /***/ }),
 
+/***/ "./components/Slider/Slide.js":
+/*!************************************!*\
+  !*** ./components/Slider/Slide.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/home/ricardo/jobs/lab/components/Slider/Slide.js";
+
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Flex AICenter JCCenter TextCenter P1x Container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "PB24",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, children));
+});
+
+/***/ }),
+
+/***/ "./components/Slider/Slider.js":
+/*!*************************************!*\
+  !*** ./components/Slider/Slider.js ***!
+  \*************************************/
+/*! exports provided: default, SimpleSlider */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SimpleSlider", function() { return SimpleSlider; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "react-slick");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/ricardo/jobs/lab/components/Slider/Slider.js";
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var sliderSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1
+};
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var children = _ref.children,
+      id = _ref.id;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "PT40",
+    id: id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "PB2x PT40",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({}, sliderSettings, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), children)));
+});
+function SimpleSlider(_ref2) {
+  var children = _ref2.children,
+      props = _objectWithoutProperties(_ref2, ["children"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({}, sliderSettings, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), children));
+}
+
+/***/ }),
+
 /***/ "./components/Views/MainView.js":
 /*!**************************************!*\
   !*** ./components/Views/MainView.js ***!
@@ -1224,7 +1389,7 @@ module.exports = [{"text":"Começando pelo Básico","href":"/01-comecando-pelo-b
 /*! exports provided: page, faq, historys, default */
 /***/ (function(module) {
 
-module.exports = {"page":{"meta":{"title":"Colocando em prática"},"header":{"number":"02","title":"Colocando em prática","text":"Agora que já sabemos quem somos na teoria, vamos ver como isso funciona no nosso dia- a- dia!","cta":"Nossa experiência"},"footer":{"href":"03-nossa-linguagem"}},"faq":[{"color":"#F5F5F5","step":"ETAPA 1","title":"Conhecimento","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"color":"#F0F0F0","step":"ETAPA 2","title":"Compra","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"color":"#EBEBEB","step":"ETAPA 3","title":"Coleta de Exame","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"color":"#E6E6E6","step":"ETAPA 4","title":"Resultado","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."}],"historys":[{"title":"Da professora Bia","youtubeSlug":""},{"title":"Da vó Catarina","youtubeSlug":""}]};
+module.exports = {"page":{"meta":{"title":"Colocando em prática"},"header":{"number":"02","title":"Colocando em prática","text":"Agora que já sabemos quem somos na teoria, vamos ver como isso funciona no nosso dia- a- dia!","cta":"Nossa experiência"},"footer":{"href":"03-nossa-linguagem"}},"faq":[{"color":"#F5F5F5","step":"ETAPA 1","title":"Conhecimento","slides":[{"bigTitle":"A nossa relação com o paciente começa na etapa do conhecimento. Essa é a nossa oportunidade de apresentarmos o Labi, os nossos pilares e produtos.","title":null,"subtitle":null,"list":[]},{"bigTitle":null,"title":"RECEBIMENTO","subtitle":"Seja bem-vindo ao Labi Exames.","list":["Recebemos TODAS as pessoas com a mesma atenção e acolhimento.","Somos gentis e solícitos em TODOS os nossos canais.","Sempre que possível, levante-se para receber um novo paciente, o sempre ofereça para que ele sente. Evite fazer atendimentos sentado enquanto o paciente está em pé em frente ao balcão."]},{"bigTitle":null,"title":"APRESENTAÇÃO","subtitle":"Deixa eu lhe contar um pouco mais sobre nós!","list":["Ao receber um paciente que está buscando informações sobre o Labi tenha paciência para contar nossa história, demonstrar nossos diferenciais e esclarecer todas as dúvidas.","Apresente o Labi como um jeito inteligente de fazer exames, que une qualidade, conveniência e os melhores preços","Sempre apresente nossos checkups e convide o paciente para realizar um exame."]},{"bigTitle":null,"title":"ENCAMINHAMENTO","subtitle":"Todo mundo tem exames a fazer.","list":["Mesmo que o paciente esteja apenas curioso, sempre existe oportunidade de oferecer um exame.","Ofereça um orçamento de exames que ele já tenha te contado que precisa fazer.","Ou então mostre os nossos checkups e convide o paciente a experimentar o Labi."]}]},{"color":"#F0F0F0","step":"ETAPA 2","title":"Compra","slides":[{"bigTitle":"Comprar exames não é algo usual. Precisamos ter paciência, explicar as condições de forma clara e estarmos prontos para encontrar a melhor solução para o paciente.","title":null,"subtitle":null,"list":[]},{"bigTitle":null,"title":"ORÇAMENTO","subtitle":"Sim, nós temos os melhores preços!","list":["Prepare o orçamento dos exames com carinho e atenção.","Esteja sempre atento aos preparos necessário para orientar o paciente.","Pergunte se ele tem dúvidas, urgência ou se gostaria de conhecer nossas condições de pagamento."]},{"bigTitle":null,"title":"COMPRA","subtitle":"Como você gosta de ser atendido quando compra algo importante?","list":["Explique todas as formas de pagamento possíveis: a vista, no débito, no crédito ou parcelado.","Sempre que o atendimento estiver sendo feito por canais digitais ofereça o desconto da compra pela internet.","Se a compra for presencial, confirme o valor antes de passar o cartão e auxilie o paciente nesse processo."]},{"bigTitle":null,"title":"AGENDAMENTO","subtitle":"A gente facilita tudo, do início ao fim.","list":["Entregue o protocolo, esclareça o prazo do resultado e como ele pode ser retirado: através do site ou na unidade.","Para facilitar a compreensão pinte a área com o login e senha de acesso ao resultado dos exames.","Acompanhe o paciente até a saída e garanta que ele está bem o suficiente para ir embora."]}]},{"color":"#EBEBEB","step":"ETAPA 3","title":"Coleta de Exame","slides":[{"bigTitle":"A etapa da coleta é a mais delicada da nossa jornada. Não medimos esforços para manter o conforto do paciente neste momento da sua experiência no Labi.","title":null,"subtitle":null,"list":[]},{"bigTitle":null,"title":"CHAMADA","subtitle":"Nossa chance causar a melhor primeira impressão","list":["Antes de chamar o paciente imprima as etiquetas dos exames que serão coletados","Você deve receber o paciente com protocolo e documento de identificação em mãos","Chame o paciente pelo nome completo. Caso o paciente tenha mais de 70 anos opte pelo tratamento Sr. ou Sra.","Apresente-se ao paciente enquanto o acompanha até o box de coleta"]},{"bigTitle":null,"title":"COLETA","subtitle":"Uau que rápido, eu nem percebi a picada da agulha!","list":["Convide o paciente para se sentar e, se você perceber que ele está nervoso, ofereça para realizar a coleta deitado ou ajude a acalmá-lo","Manuseie o material de maneira clara permitindo que o paciente veja que todo o material é descartável.","Mostre os tubos de coleta, explique quais serão os exames e peça para o paciente conferir o nome nas etiquetas.","Deixe o paciente escolher qual braço de sua preferência para a coleta.","Peça licença, garroteie, esterilize a região com álcool e faça a coleta."]},{"bigTitle":null,"title":"DESPEDIDA","subtitle":"Nosso dever de garantir que o paciente está bem para ir pra casa.","list":["Entregue o protocolo, esclareça o prazo do resultado e como ele pode ser retirado: através do site ou na unidade.","Para facilitar a compreensão pinte a área com o login e senha de acesso ao resultado dos exames.","Acompanhe o paciente até a saída e garanta que ele está bem o suficiente para ir embora."]}]},{"color":"#E6E6E6","step":"ETAPA 4","title":"Resultado","slides":[{"bigTitle":"O resultado de um exame vai muito além de um laudo. Por isso, precisamos ser empáticos e atenciosos.","title":null,"subtitle":null,"list":[]},{"bigTitle":null,"title":"ENTREGA","subtitle":"Conveniência e conforto do paciente em primeiro lugar.","list":["Todos precisamos estar sempre prontos para explicar como funciona a entrega dos exames e orientar como se faz para acessar o resultado online.","Nós nunca podemos consultar o resultado de exames de pacientes.","Quando entregue pessoalmente nunca deseje boa sorte, entregue o exame e cumprimente o paciente."]},{"bigTitle":null,"title":"COLETA","subtitle":"Nosso dever é orientar.","list":["A ligação médica tem como objetivo orientar os pacientes sobre os próximos passos. Ela não é uma consulta.","É importante manter uma voz calma e não causar ansiedade no paciente.","Seja simpático e positivo.","Em situações extremas peça ajuda para fazer a ligação caso tenha dúvidas sobre como abordar o paciente."]},{"bigTitle":null,"title":"DESPEDIDA","subtitle":"Estamos sempre disponíveis para dúvidas.","list":["Se prepare para todo o tipo de dúvida, esse Guia está aqui para isso!","Sempre que estiver em um atendimento digital mantenha a calma e procure a resposta mais adequada para a dúvida do paciente.","Quando estiver em um atendimento telefônico ou presencial, se não souber a resposta, anote o telefone do paciente e ligue mais tarde com a resposta."]}]}],"historys":[{"title":"Da professora Bia","youtubeSlug":""},{"title":"Da vó Catarina","youtubeSlug":""}]};
 
 /***/ }),
 
@@ -1246,10 +1411,17 @@ var _data_pages_02_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__
 /* harmony import */ var _components_Common_Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Common/Link */ "./components/Common/Link.js");
 /* harmony import */ var _components_Pages_HistoryCard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Pages/HistoryCard */ "./components/Pages/HistoryCard.js");
 /* harmony import */ var _components_HTML_H2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/HTML/H2 */ "./components/HTML/H2.js");
-/* harmony import */ var _components_HTML_P__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/HTML/P */ "./components/HTML/P.js");
-/* harmony import */ var _components_Views_PageView__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Views/PageView */ "./components/Views/PageView.js");
-/* harmony import */ var _components_HTML_Section__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/HTML/Section */ "./components/HTML/Section.js");
+/* harmony import */ var _components_HTML_H3__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/HTML/H3 */ "./components/HTML/H3.js");
+/* harmony import */ var _components_HTML_P__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/HTML/P */ "./components/HTML/P.js");
+/* harmony import */ var _components_Views_PageView__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Views/PageView */ "./components/Views/PageView.js");
+/* harmony import */ var _components_HTML_Section__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/HTML/Section */ "./components/HTML/Section.js");
+/* harmony import */ var _components_Slider_Slider__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Slider/Slider */ "./components/Slider/Slider.js");
+/* harmony import */ var _components_Slider_Slide__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Slider/Slide */ "./components/Slider/Slide.js");
 var _jsxFileName = "/home/ricardo/jobs/lab/pages/02-colocando-em-pratica.js";
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -1263,23 +1435,26 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
+
+
+
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_PageView__WEBPACK_IMPORTED_MODULE_8__["default"], _extends({}, _data_pages_02_json__WEBPACK_IMPORTED_MODULE_1__["page"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Views_PageView__WEBPACK_IMPORTED_MODULE_9__["default"], _extends({}, _data_pages_02_json__WEBPACK_IMPORTED_MODULE_1__["page"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section1, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section2, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 18
     },
     __self: this
   }));
@@ -1290,68 +1465,166 @@ var Section1 = function Section1() {
     className: "PT40",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Container TextCenter PH32 PT2x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 24
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_P__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_P__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_ComponentList__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    component: _components_Common_Collapse__WEBPACK_IMPORTED_MODULE_2__["default"],
-    componentProps: {
-      full: true
-    },
+    component: CollapseSlider,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 27
     },
     __self: this
   }, _data_pages_02_json__WEBPACK_IMPORTED_MODULE_1__["faq"]));
 };
 
+var CollapseSlider = function CollapseSlider(_ref) {
+  var _ref$slides = _ref.slides,
+      slides = _ref$slides === void 0 ? [] : _ref$slides,
+      props = _objectWithoutProperties(_ref, ["slides"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_Collapse__WEBPACK_IMPORTED_MODULE_2__["default"], _extends({}, props, {
+    full: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slider__WEBPACK_IMPORTED_MODULE_11__["SimpleSlider"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, slides.map(SlideFaq)));
+};
+
+var SlideFaq = function SlideFaq(_ref2) {
+  var key = _ref2.key,
+      bigTitle = _ref2.bigTitle,
+      title = _ref2.title,
+      subtitle = _ref2.subtitle,
+      list = _ref2.list;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slide__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    key: key,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Container",
+    style: {
+      maxWidth: 380
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "TextLeft FS6x SingleSpace Saira ColorPrimary Medium",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, bigTitle), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_H3__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    className: "Light PB8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      minHeight: '2em'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, subtitle), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Ul, {
+    className: "TextLeft SingleSpace FS2x List ListCheck ColorGray",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, list)));
+};
+
+var Ul = function Ul(_ref3) {
+  var children = _ref3.children,
+      props = _objectWithoutProperties(_ref3, ["children"]);
+
+  if (!children.length) return null;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", _extends({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }), children.map(function (child, key) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      className: "PV4",
+      key: key,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61
+      },
+      __self: this
+    }, child);
+  }));
+};
+
 var Section2 = function Section2() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_Section__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_Section__WEBPACK_IMPORTED_MODULE_10__["default"], {
     className: "BGSecondary",
     full: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "W80",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 69
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_H2__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 70
     },
     __self: this
-  }, "Agora, vamos exercitar com hist\xF3rias reais?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_P__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, "Agora, vamos exercitar com hist\xF3rias reais?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HTML_P__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 71
     },
     __self: this
   }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Common_ComponentList__WEBPACK_IMPORTED_MODULE_3__["default"], {
     component: _components_Pages_HistoryCard__WEBPACK_IMPORTED_MODULE_5__["default"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 75
     },
     __self: this
   }, _data_pages_02_json__WEBPACK_IMPORTED_MODULE_1__["historys"]));
@@ -1423,6 +1696,17 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-slick":
+/*!******************************!*\
+  !*** external "react-slick" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-slick");
 
 /***/ })
 

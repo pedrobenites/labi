@@ -165,33 +165,18 @@ function (_Component) {
           lineNumber: 23
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "CollapseBody",
-        style: {
-          maxHeight: _this.state.open ? 500 : 0
-        },
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CollapseBody, {
+        isOpen: _this.state.open,
+        style: _this.style,
+        description: _this.props.description,
+        className: _this.props.classNameBody,
+        notUseClassNameDefault: _this.props.notUseClassNameDefault,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "PT24 PB1x PH16 TextLeft",
-        style: _this.style,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HTML_P__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        className: _this.props.classNameBody,
-        notUseClassNameDefault: _this.props.notUseClassNameDefault,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
-      }, _this.props.description))));
+      }, _this.props.children));
     });
 
     return _this;
@@ -217,46 +202,39 @@ var CollapseHead = function CollapseHead(_ref) {
       props = _objectWithoutProperties(_ref, ["title", "step"]);
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, props, {
-    className: "CollapseHead Flex AICenter",
+    className: "CollapseHead Flex AICenter JCSpaceBetween",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 41
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Container Flex JCSpaceBetween AICenter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 42
     },
     __self: this
   }, step && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Step",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 43
     },
     __self: this
   }, step), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Title",
+    className: "Title Saira Medium",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 44
     },
     __self: this
   }, title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconPlus, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 46
     },
     __self: this
-  })));
+  }));
 };
 
 var IconPlus = function IconPlus() {
@@ -266,7 +244,7 @@ var IconPlus = function IconPlus() {
     viewBox: "0 0 24 24",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
@@ -274,10 +252,44 @@ var IconPlus = function IconPlus() {
     d: "M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 52
     },
     __self: this
   }));
+};
+
+var CollapseBody = function CollapseBody(_ref2) {
+  var description = _ref2.description,
+      isOpen = _ref2.isOpen,
+      style = _ref2.style,
+      children = _ref2.children,
+      props = _objectWithoutProperties(_ref2, ["description", "isOpen", "style", "children"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "CollapseBody",
+    style: {
+      maxHeight: isOpen ? 500 : 0
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "PT24 PB1x PH16 TextLeft",
+    style: style,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, description && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HTML_P__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }), description), children));
 };
 
 /***/ }),
@@ -1060,16 +1072,21 @@ var _jsxFileName = "/home/ricardo/jobs/lab/components/Slider/Slide.js";
 /*!*************************************!*\
   !*** ./components/Slider/Slider.js ***!
   \*************************************/
-/*! exports provided: default */
+/*! exports provided: default, SimpleSlider */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SimpleSlider", function() { return SimpleSlider; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/home/ricardo/jobs/lab/components/Slider/Slider.js";
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -1108,6 +1125,24 @@ var sliderSettings = {
     __self: this
   }), children)));
 });
+function SimpleSlider(_ref2) {
+  var children = _ref2.children,
+      props = _objectWithoutProperties(_ref2, ["children"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({}, sliderSettings, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), children));
+}
 
 /***/ }),
 
@@ -20463,7 +20498,7 @@ var Pillar = function Pillar(_ref2) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 7:
 /*!*************************************************!*\
   !*** multi ./pages/01-comecando-pelo-basico.js ***!
   \*************************************************/
@@ -20488,5 +20523,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[7,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=01-comecando-pelo-basico.js.map

@@ -595,6 +595,12 @@ body,
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.List {
+  list-style-type: none;
+}
+.List.ListCheck {
+  list-style-image: url("/static/img/ic_check.png");
+}
 .MHAuto {
   margin-left: auto;
   margin-right: auto;
@@ -1407,6 +1413,9 @@ body,
 }
 .Light {
   font-weight: lighter;
+}
+.Medium {
+  font-weight: 400;
 }
 .NoWrap {
   white-space: nowrap;

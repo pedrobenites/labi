@@ -5,9 +5,12 @@ import ComponentList from 'components/Common/ComponentList'
 import Link from 'components/Common/Link'
 import HistoryCard from 'components/Pages/HistoryCard'
 import H2 from 'components/HTML/H2'
+import H3 from 'components/HTML/H3'
 import P from 'components/HTML/P'
 import PageView from 'components/Views/PageView'
 import Section from 'components/HTML/Section'
+import { SimpleSlider } from 'components/Slider/Slider'
+import Slide from 'components/Slider/Slide'
 
 export default () => (
   <PageView {...page}>
@@ -21,11 +24,45 @@ const Section1 = () => (
     <div className="Container TextCenter PH32 PT2x">
       <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</P>
     </div>
-    <ComponentList component={Collapse} componentProps={{ full: true }}>
+    <ComponentList component={CollapseSlider}>
       {faq}
     </ComponentList>
   </section>
 )
+
+const CollapseSlider = ({ slides = [], ...props }) => (
+  <Collapse {...props} full={true}>
+    <SimpleSlider>
+      {slides.map(SlideFaq)}
+    </SimpleSlider>
+  </Collapse>
+)
+
+const SlideFaq = ({ key,  bigTitle, title, subtitle, list}) => (
+  <Slide key={key}>
+    <div className="Container" style={{ maxWidth: 380 }}>
+      <p className="TextLeft FS6x SingleSpace Saira ColorPrimary Medium">
+        {bigTitle}
+      </p>
+      <H3 className="Light PB8">{title}</H3>
+      <p style={{ minHeight: '2em' }}>{subtitle}</p>
+      <Ul className="TextLeft SingleSpace FS2x List ListCheck ColorGray">
+        {list}
+      </Ul>
+    </div>
+  </Slide>
+)
+
+const Ul = ({ children, ...props }) => {
+  if (!children.length) return null
+  return (
+    <ul {...props}>
+      {children.map((child, key) => (
+        <li className="PV4" key={key}>{child}</li>
+      ))}
+    </ul>
+  )
+}
 
 const Section2 = () => (
   <Section className="BGSecondary" full>

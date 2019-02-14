@@ -18,3 +18,13 @@ export default ({ children, id }) => (
     </div>
   </section>
 )
+
+export function SimpleSlider ({ children, ...props }) {
+  return (
+    <div {...props}>
+      <Slider {...sliderSettings}>
+        {children}
+      </Slider>
+    </div>
+  )
+}
