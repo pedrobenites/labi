@@ -11575,7 +11575,7 @@ var Section1 = function Section1() {
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!***********************************************!*\
   !*** multi ./pages/05-respostas-certeiras.js ***!
   \***********************************************/
@@ -11600,5 +11600,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=05-respostas-certeiras.js.map

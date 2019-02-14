@@ -14,6 +14,8 @@
     }
   },
   "glossary": [
+    { "letter": "A" },
+    { "letter": "B" },
     {
       "letter": "C",
       "list": [
@@ -35,6 +37,7 @@
         }
       ]
     },
+    { "letter": "D" },
     {
       "letter": "E",
       "list": [
@@ -56,6 +59,11 @@
         }
       ]
     },
+    { "letter": "F" },
+    { "letter": "G" },
+    { "letter": "H" },
+    { "letter": "I" },
+    { "letter": "J" },
     {
       "letter": "L",
       "list": [
@@ -65,6 +73,9 @@
         }
       ]
     },
+    { "letter": "M" },
+    { "letter": "N" },
+    { "letter": "O" },
     {
       "letter": "P",
       "list": [
@@ -74,6 +85,10 @@
         }
       ]
     },
+    { "letter": "Q" },
+    { "letter": "R" },
+    { "letter": "S" },
+    { "letter": "T" },
     {
       "letter": "U",
       "list": [
@@ -82,6 +97,9 @@
           "text": "É como chamamos as nossas unidades físicas de coleta de exames."
         }
       ]
-    }
+    },
+    { "letter": "V" },
+    { "letter": "X" },
+    { "letter": "Z" }
   ]
 }

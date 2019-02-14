@@ -1,6 +1,6 @@
 import React from 'react'
 import { page, faq, historys } from 'data/pages/02.json'
-import Collapse from 'components/Common/Collapse'
+import CollapseSlider from 'components/Common/CollapseSlider'
 import ComponentList from 'components/Common/ComponentList'
 import Link from 'components/Common/Link'
 import HistoryCard from 'components/Pages/HistoryCard'
@@ -24,18 +24,10 @@ const Section1 = () => (
     <div className="Container TextCenter PH32 PT2x">
       <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</P>
     </div>
-    <ComponentList component={CollapseSlider}>
+    <ComponentList component={CollapseSlider} componentProps={{ slideComponent: SlideFaq }}>
       {faq}
     </ComponentList>
   </section>
-)
-
-const CollapseSlider = ({ slides = [], ...props }) => (
-  <Collapse {...props} full={true}>
-    <SimpleSlider>
-      {slides.map(SlideFaq)}
-    </SimpleSlider>
-  </Collapse>
 )
 
 const SlideFaq = ({ key,  bigTitle, title, subtitle, list}) => (
