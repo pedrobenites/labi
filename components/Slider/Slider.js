@@ -1,4 +1,5 @@
 import React from 'react'
+import classNames from 'classnames'
 import Slider from 'react-slick';
 
 const sliderSettings = {
@@ -9,8 +10,8 @@ const sliderSettings = {
   slidesToScroll: 1
 }
 
-export default ({ children, id }) => (
-  <section className="PT40" id={id}>
+export default ({ children, id, fix }) => (
+  <section className={classNames({ PT40: !fix })} id={id}>
     <div className="PB2x PT40">
       <Slider {...sliderSettings}>
         {children}
