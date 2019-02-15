@@ -7,6 +7,7 @@ import H3 from 'components/HTML/H3'
 import HTML from 'components/HTML/HTML'
 import P from 'components/HTML/P'
 import PageView from 'components/Views/PageView'
+import ScrollTo from 'components/Common/ScrollTo'
 import Section from  'components/HTML/Section'
 import Slide from 'components/Slider/Slide'
 import Slider from 'components/Slider/Slider'
@@ -21,7 +22,7 @@ export default () => (
 )
 
 const Section1 = () => (
-  <Slider>
+  <Slider id="target">
     <Slide>
       <div style={{ height: 320 }}>
         <H3>Nós falamos o português correto sempre</H3>
@@ -39,13 +40,15 @@ const Section2 = () => (
       Nós praticamos 2 tipos de linguagem, a ATIVA e a REATIVA.
       Elas permitem que nós sejamos acolhedores sem desrespeitar as nossas regras de linguagem.
     </P>
-    <Button className="BtnOutlineInverted">Vamos lá</Button>
+    <ScrollTo to="linguagem" offsetTop={80}>
+      <Button className="BtnOutlineInverted">Vamos lá</Button>
+    </ScrollTo>
   </Section>
 )
 
 
 const SectionLinguage = ({ title, list, className }) => (
-  <Section full className={className}>
+  <Section id="linguagem" full className={className}>
     <div className="TextCenter PB2x">
       <H2>{title}</H2>
     </div>

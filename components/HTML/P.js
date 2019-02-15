@@ -1,12 +1,12 @@
 import React from 'react'
 import classNames from 'classnames'
 
-export default ({ className, children, notUseClassNameDefault }) => {
+export default ({ className, children, notUseClassNameDefault, isList }) => {
   const classNameComponent = classNames({
     ['ColorBlack SingleSpace PV1x Opacity5']: !notUseClassNameDefault,
   }, className)
 
-  if (typeof children === typeof [] && children.length !== undefined) {
+  if (isList) {
     return children.map((child, key) => (
       <p className={classNameComponent} key={key}>
         {child}

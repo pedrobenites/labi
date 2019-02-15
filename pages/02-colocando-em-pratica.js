@@ -21,7 +21,7 @@ export default () => (
 
 const Section1 = () => (
   <section className="PT40">
-    <div className="Container TextCenter PH32 PT2x">
+    <div id="target" className="Container TextCenter PH32 PT2x">
       <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</P>
     </div>
     <ComponentList component={CollapseSlider} componentProps={{ slideComponent: SlideFaq }}>
@@ -30,7 +30,7 @@ const Section1 = () => (
   </section>
 )
 
-const SlideFaq = ({ key,  bigTitle, title, subtitle, list}) => (
+const SlideFaq = ({ bigTitle, title, subtitle, list }, key) => (
   <Slide key={key}>
     <div className="Container" style={{ maxWidth: 380 }}>
       <p className="TextLeft FS6x SingleSpace Saira ColorPrimary Medium">

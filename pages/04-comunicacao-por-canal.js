@@ -9,7 +9,7 @@ import Slide from 'components/Slider/Slide'
 export default () => (
   <PageView {...page}>
     <section className="PT40">
-      <div className="Container TextCenter PH32 PT2x">
+      <div id="target" className="Container TextCenter PH32 PT2x">
         <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</P>
       </div>
       <ComponentList component={CollapseSlider} componentProps={{ slideComponent: SlideFaq }}>
@@ -19,8 +19,8 @@ export default () => (
   </PageView>
 )
 
-const SlideFaq = ({ imageUrl, title, subtitle, list }) => (
-  <Slide>
+const SlideFaq = ({ imageUrl, title, subtitle, list }, key) => (
+  <Slide key={key}>
     {imageUrl && (
       <img src={imageUrl} width={300} height={400} />
     )}

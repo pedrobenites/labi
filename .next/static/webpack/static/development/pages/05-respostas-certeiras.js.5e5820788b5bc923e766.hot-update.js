@@ -1,0 +1,15 @@
+webpackHotUpdate("static/development/pages/05-respostas-certeiras.js",{
+
+/***/ "./data/pages/05.json":
+/*!****************************!*\
+  !*** ./data/pages/05.json ***!
+  \****************************/
+/*! exports provided: page, faq, default */
+/***/ (function(module) {
+
+module.exports = {"page":{"meta":{"title":"Respostas rápidas e certeiras"},"header":{"number":"05","title":"Respostas rápidas e certeiras","text":"Na nossa sessão de respostas rápidas e certeiras você vai encontrar dicas de como responder as perguntas mais comuns que recebemos no nosso dia a dias.","cta":"Nossas respostas"},"footer":{"href":"/06-glossario"}},"faq":[{"title":"Quem somos nós","list":[{"title":"O que é o Labi?","text":"O Labi é um laboratório de exames de análises clínicas focado em eficiência e com os melhores preços de mercado."},{"title":"E o que é isso?","text":"É um laboratório especializado em fazer exames de sangue, urina e fezes."},{"title":"Quais exames o Labi faz?","text":"Nós fazemos mais de 600 tipos de exames de sangue, urina e fezes."},{"title":"O Labi faz exames de imagem?","text":"Nós não fazemos exames de imagem, somos especialistas em exames de análises clínicas: sangue, urina e fezes."},{"title":"Mas por que vocês não fazem exames de imagem?","text":"Nós escolhemos ser especialistas em exames de análises clínicas, porque isso nos permite realizar exames de alta qualidade com preços mais acessíveis."},{"title":"O Labi faz exames sem pedido médico?","text":"Sim! O pedido médico não é necessário, mas se o paciente tiver o pedido podemos ajudar a conferir exatamente o que o médico solicitou."},{"title":"Mas isso é permitido?","text":"Sim! O pedido médico é uma exigência apenas dos convênios médicos. E, exames particulares não precisam obrigatoriamente de requisição."},{"title":"Vocês também fazem exame por convênio?","text":"Sim! Nesse caso, é necessário ter o pedido médico com data, assinatura e carimbo do médico."},{"title":"O Labi faz consultas?","text":"Não. Nós fazemos, apenas, exames. Os nossos check-ups acompanham um laudo explicativo que facilita a leitura e compreensão dos resultado. Em caso de alteração nos exames, nossa equipe médica entra em contato com o paciente com orientações do tipo de especialidade médica que deve ser consultada."}]},{"title":"Como fazer exames","description":"description"},{"title":"Pagamento e Convênios","description":"description"},{"title":"Agendamento","description":"description"},{"title":"Resultados de Exames","description":"description"},{"title":"Necessidade de Recoleta","description":"description"},{"title":"Atraso no Resultado","description":"description"},{"title":"Outras Dúvidas Comuns","description":"description"}]};
+
+/***/ })
+
+})
+//# sourceMappingURL=05-respostas-certeiras.js.5e5820788b5bc923e766.hot-update.js.map

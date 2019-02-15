@@ -1,0 +1,45 @@
+.HistoryCard
+  transitionAll();
+  &:not(.Active):hover
+    transform: translateX(24px);
+  .Card
+    padding: 0;
+  .CardHead
+    padding: 24px;
+  .CardBodyWrapper
+    overflow: hidden;
+    transitionAll();
+    bg(#F0F0F0);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  .CardBody
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 24px;
+  .Sound
+    position: relative;
+    .ImageBody
+      bg(#F0F0F0)
+      border-radius: 50%;
+      z-index: 2;
+      w(40px);
+      min-width: 40px;
+      h(32px);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    &:before
+      content: '';
+      z-index: 1;
+      width: 2px;
+      background-color: #aaa;
+      height: 70%;
+      top: 24px;
+      position: absolute;
+      left: 19px;
+    &:last-child:before
+      display: none;
+  .ProgressBar
+    bg(#F0F0F0);
+    > div
+      transitionAll();

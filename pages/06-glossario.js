@@ -25,10 +25,12 @@ class SectionGlossary extends Component {
   setDisable = disable => this.setState({ disable })
 
   render = () => (
-    <section className="PV2x">
+    <section id="target" className="PV2x">
       <div className="PV24 AutoSlider">
         <DragElement isMoving={this.setDisable}>
-          <ComponentList component={Summary} componentProps={{ disable: this.state.disable }}>
+          <ComponentList
+            component={Summary}
+            componentProps={{ disable: this.state.disable }}>
             {summary}
           </ComponentList>
         </DragElement>
@@ -43,7 +45,14 @@ class SectionGlossary extends Component {
 }
 
 class DragElement extends Component {
-  state = { moving: false, x: 0, delta: 0, referenceDelta: 0, time: 0, width: null }
+  state = {
+     moving: false,
+     x: 0,
+     delta: 0,
+     referenceDelta: 0,
+     time: 0,
+     width: null
+   }
 
   _ref = React.createRef()
 
@@ -149,8 +158,15 @@ const LastSection = () => (
       <Link href="mailto:glossario@labiexames.com">glossario@labiexames.com</Link>
       {' '}com a palavra, o seu significado e porque você acha que ela deveria estar no nosso glossário!
     </P>
-    <Button href="/" className="BtnOutlineInverted">Nosso pilares</Button>
-    <Button href="/" icon="arrow-right" className="BtnInverted MT16">
+    <Button
+      href="/01-comecando-pelo-basico?#pilares"
+      className="BtnOutlineInverted">
+      Nosso pilares
+    </Button>
+    <Button
+      href="/"
+      icon="arrow-right"
+      className="BtnInverted MT16">
       Voltar ao início
     </Button>
   </Section>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from 'components/Common/Button'
+import ScrollTo from 'components/Common/ScrollTo'
 
 export default ({ className, number, title, text, cta }) => (
   <header className="PB3x">
@@ -14,9 +15,11 @@ export default ({ className, number, title, text, cta }) => (
         <p className="ColorWhite SingleSpace Opacity6 PV1x">
           {text}
         </p>
-        <Button className="BtnOutline">
-          {cta}
-        </Button>
+        <ScrollTo to="target" offsetTop={80}>
+          <Button className="BtnOutline">
+            {cta}
+          </Button>
+        </ScrollTo>
       </div>
     </div>
   </header>

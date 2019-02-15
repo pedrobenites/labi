@@ -22,7 +22,7 @@ export default () => (
 )
 
 const SectionValues = () => (
-  <Slider>
+  <Slider id="target">
     {slides.map(({ letter, text }, key) => (
       <Slide key={key}>
         <div className="ColorPrimary Saira FS80">{letter}</div>
@@ -66,7 +66,8 @@ const Pillar = ({ imageUrl, title, text, faq }) => (
       component={Collapse}
       componentProps={{
         classNameBody: 'M0 TextCenter Opacity5 MB1x',
-        notUseClassNameDefault: true
+        notUseClassNameDefault: true,
+        isList: true,
       }}>
       {faq}
     </ComponentList>

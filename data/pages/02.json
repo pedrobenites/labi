@@ -193,12 +193,74 @@
   ],
   "historys": [
     {
-      "title": "Da professora Bia",
-      "youtubeSlug": ""
+      "title": "Da Bia",
+      "playlist": [
+        {
+          "src": "static/sounds/history_01/H1_01_Labi_Exames_Apresenta.mp3",
+          "title": "Essa é a Bia",
+          "time": "0:24"
+        },
+        {
+          "src": "static/sounds/history_01/H1_02_Conhecendo_o_Labi.mp3",
+          "title": "Conhecendo o Labi",
+          "time": "0:50"
+        },
+        {
+          "src": "static/sounds/history_01/H1_03_Primeiro_Contato.mp3",
+          "title": "Primeiro contato",
+          "time": "2:31"
+        },
+        {
+          "src": "static/sounds/history_01/H1_04_Compra_do_Exame.mp3",
+          "title": "Compra do exame",
+          "time": "1:26"
+        },
+        {
+          "src": "static/sounds/history_01/H1_05_Coleta_do_Exame.mp3",
+          "title": "Coleta do exame",
+          "time": "1:26"
+        },
+        {
+          "src": "static/sounds/history_01/H1_06_Entrega_do_Resultado.mp3",
+          "title": "Entrega do resultado",
+          "time": "0:55"
+        }
+      ]
     },
     {
-      "title": "Da vó Catarina",
-      "youtubeSlug": ""
+      "title": "Da tia Catarina",
+      "playlist": [
+        {
+          "src": "static/sounds/history_02/H2_01_Labi_Exames_Apresenta.mp3",
+          "title": "Essa é a Catarina",
+          "time": "0:36"
+        },
+        {
+          "src": "static/sounds/history_02/H2_02_Conhecendo_o_Labi.mp3",
+          "title": "Conhecendo o Labi",
+          "time": "0:20"
+        },
+        {
+          "src": "static/sounds/history_02/H2_03_Primeiro_Contato.mp3",
+          "title": "Primeiro contato",
+          "time": "6:54"
+        },
+        {
+          "src": "static/sounds/history_02/H2_04_Compra_do_Exame.mp3",
+          "title": "Compra do exame",
+          "time": "1:37"
+        },
+        {
+          "src": "static/sounds/history_02/H2_05_Coleta_do_Exame.mp3",
+          "title": "Coleta do exame",
+          "time": "1:28"
+        },
+        {
+          "src": "static/sounds/history_02/H2_06_Entrega_do_Resultado.mp3",
+          "title": "Entrega do resultado",
+          "time": "0:49"
+        }
+      ]
     }
   ]
 }

@@ -30,6 +30,7 @@ export default class extends Component {
         style={this.style}
         description={this.props.description}
         className={this.props.classNameBody}
+        isList={this.props.isList}
         notUseClassNameDefault={this.props.notUseClassNameDefault}>
         {this.props.children}
       </CollapseBody>
@@ -54,8 +55,8 @@ const IconPlus = () => (
 )
 
 const CollapseBody = ({ description, isOpen, style, children, ...props }) => (
-  <div className="CollapseBody" style={{ maxHeight: isOpen ? 500 : 0 }}>
-    <div className="PT24 PB1x PH16 TextLeft" style={style}>
+  <div className="CollapseBody" style={{ maxHeight: isOpen ? 1000 : 0 }}>
+    <div className="PV16 PH24 TextLeft" style={style}>
       {description && (
         <P {...props}>
           {description}
