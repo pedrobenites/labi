@@ -15,7 +15,8 @@
   },
   "faq": [
     {
-      "title": "WHATSAPP",
+      "color": "#F5F5F5",
+      "step": "WHATSAPP",
       "slides": [
         {
           "imageUrl": null,
@@ -32,7 +33,8 @@
       ]
     },
     {
-      "title": "TELEFONE",
+      "color": "#F0F0F0",
+      "step": "TELEFONE",
       "slides": [
         {
           "imageUrl": null,
@@ -49,7 +51,8 @@
       ]
     },
     {
-      "title": "FACEBOOK",
+      "color": "#EBEBEB",
+      "step": "FACEBOOK",
       "slides": [
         {
           "imageUrl": null,
@@ -66,7 +69,8 @@
       ]
     },
     {
-      "title": "E-MAIL",
+      "color": "#E6E6E6",
+      "step": "E-MAIL",
       "slides": [
         {
           "imageUrl": null,
@@ -83,7 +87,8 @@
       ]
     },
     {
-      "title": "UNIDADES",
+      "color": "#E2E2E2",
+      "step": "UNIDADES",
       "slides": [
         {
           "imageUrl": null,
