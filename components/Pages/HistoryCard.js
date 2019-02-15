@@ -44,7 +44,7 @@ export default class HistoryCard extends Component {
 
   openCard = () => {
     const { clientHeight } = this._cardBody.current.firstChild
-    this.audioPlay()
+    this.setPosition(0)
     return this.setState({ active: true, height: clientHeight })
   }
 
@@ -100,9 +100,7 @@ export default class HistoryCard extends Component {
               currentTime={this.state.currentTime}
               duration={this.state.duration} />
           )}
-          <audio ref={this._audio} onTimeUpdate={this.updateTime}>
-            <source src={this.soundSrc}/>
-          </audio>
+          <audio ref={this._audio} onTimeUpdate={this.updateTime} />
           <div
             className="CardBodyWrapper"
             ref={this._cardBody}
