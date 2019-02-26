@@ -55,7 +55,7 @@ const BlockList = ({ title, list, bulletListType }) => {
 const BlockScale = ({ active, reactive }) => (
   <>
     <H4>Escala de Comunicação:</H4>
-    <div className="Flex PB3x">
+    <div className="Flex PB1x">
       <span
         className="Btn BtnPrimary BtnInverted"
         style={{ minWidth: `${active}%`, height: 40, lineHeight: '40px' }}>

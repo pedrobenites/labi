@@ -17,114 +17,130 @@
   "slides": [
     {
       "title": "Olá, nós somos o Labi Exames!",
-      "warning": {
-        "title": "Nosso nome",
-        "text": "Nosso nome completo é Labi Exames e o usamos sempre que formos nos apresentar pela primeira vez, mas o conhecidos nos chamam apenas de Labi."
-      }
-    },
-    {
-      "title": "Mas como fala?",
-      "text": "A pronúncia correta é <em>Labí</em>. Isso mesmo, como se houvesse um acento no “i”. Não pronunciamos <em>Lábi</em>, nem <em>Lébi</em> e muito menos <em>Lêibi</em>, ok?"
-    },
-    {
-      "title": "Gênero, número e grau",
-      "comparativeList": [
+      "blocks": [
         {
-          "title": "Acentos",
-          "yes": "O Labi Exames, O Labi, O Labi, As unidades do Labi",
-          "not": "A Labi Exames, A Labi, O laboratório Labi, Os Labis"
+          "subtitle": "Nosso nome",
+          "text": "Nosso nome completo é Labi Exames e o usamos sempre que formos nos apresentar pela primeira vez, mas o conhecidos nos chamam apenas de Labi."
+        },
+        {
+          "title": "Mas como fala?",
+          "text": "A pronúncia correta é <em>Labí</em>. Isso mesmo, como se houvesse um acento no “i”. Não pronunciamos <em>Lábi</em>, nem <em>Lébi</em> e muito menos <em>Lêibi</em>, ok?"
+        },
+        {
+          "title": "Gênero, número e grau",
+          "comparativeList": [
+            {
+              "title": "Acentos",
+              "yes": "O Labi Exames, O Labi, O Labi, As unidades do Labi",
+              "not": "A Labi Exames, A Labi, O laboratório Labi, Os Labis"
+            }
+          ]
         }
       ]
     },
     {
       "title": "Nós falamos o português correto sempre",
-      "comparativeList": [
+      "blocks": [
         {
-          "title": "Acentos",
-          "yes": "você, horário, médico, avó, pudéssemos…",
-          "not": "voce, horario, medico, avo, pudessemos…"
-        },
-        {
-          "title": "Vírgulas",
-          "yes": "Boa tarde, como posso lhe ajudar?",
-          "not": "Boa tarde como posso lhe ajudar"
-        },
-        {
-          "title": "Pontuação",
-          "yes": [
-            "Obrigada!",
-            "Até o seu exame."
-          ],
-          "not": [
-            "Obrigada",
-            "Ate o seu exame"
-          ]
-        },
-        {
-          "title": "Abreviações",
-          "yes": [
-            "você",
-            "por favor",
-            "tudo bem",
-            "sempre",
-            "estou"
-          ],
-          "not": [
-            "vc",
-            "pfv",
-            "td",
-            "smp",
-            "to"
+          "comparativeList": [
+            {
+              "title": "Acentos",
+              "yes": "você, horário, médico, avó, pudéssemos…",
+              "not": "voce, horario, medico, avo, pudessemos…"
+            },
+            {
+              "title": "Vírgulas",
+              "yes": "Boa tarde, como posso lhe ajudar?",
+              "not": "Boa tarde como posso lhe ajudar"
+            },
+            {
+              "title": "Pontuação",
+              "yes": [
+                "Obrigada!",
+                "Até o seu exame."
+              ],
+              "not": [
+                "Obrigada",
+                "Ate o seu exame"
+              ]
+            },
+            {
+              "title": "Abreviações",
+              "yes": [
+                "você",
+                "por favor",
+                "tudo bem",
+                "sempre",
+                "estou"
+              ],
+              "not": [
+                "vc",
+                "pfv",
+                "td",
+                "smp",
+                "to"
+              ]
+            }
           ]
         }
       ]
     },
     {
       "title": "Nós usamos os seguintes emojis",
-      "list": [
-        "😉 Winking face",
-        "👩 Woman health worker: medium skin tone",
-        "😌 Smiling face with smiling eyes",
-        "🍀 Four leaf clover",
-        "😁 Beaming face with smiling eyes",
-        "👉 Backhand index pointing right"
-      ],
-      "text": "<em>O 🍀 é um emoji especial, que só pode ser utilizado para desejar boa a sorte a pessoas inscritas nos nossos processos seletivos.</em>",
-      "warning": {
-        "title": "E não se esqueça:",
-        "text": "Nunca deseje boa sorte a um paciente."
-      }
+      "blocks": [
+        {
+          "list": [
+            "😉 Winking face",
+            "👩 Woman health worker: medium skin tone",
+            "😌 Smiling face with smiling eyes",
+            "🍀 Four leaf clover",
+            "😁 Beaming face with smiling eyes",
+            "👉 Backhand index pointing right"
+          ],
+          "text": "<em>O 🍀 é um emoji especial, que só pode ser utilizado para desejar boa a sorte a pessoas inscritas nos nossos processos seletivos.</em>"
+        },
+        {
+          "title": "E não se esqueça:",
+          "text": "Nunca deseje boa sorte a um paciente."
+        }
+      ]
     },
     {
       "title": "Nós somos próximos e acolhedores sempre",
-      "comparativeList": [
+      "blocks": [
         {
-          "title": "Pronomes",
-          "yes": [
-            "você",
-            "lhe/te*"
-          ],
-          "not": [
-            "Sr. Sra.",
-            "Srta.",
-            "Tu"
+          "comparativeList": [
+            {
+              "title": "Pronomes",
+              "yes": [
+                "você",
+                "lhe/te*"
+              ],
+              "not": [
+                "Sr. Sra.",
+                "Srta.",
+                "Tu"
+              ]
+            },
+            {
+              "title": "Exemplo",
+              "yes": [
+                "Como eu posso lhe ajudar?",
+                "Como você está?",
+                "Você precisa de alguma ajuda?"
+              ],
+              "not": [
+                "Como eu posso ajudar a Sra.?",
+                "Como o Sr. está?",
+                "Tu precisa de alguma ajuda?"
+              ]
+            }
           ]
         },
         {
-          "title": "Exemplo",
-          "yes": [
-            "Como eu posso lhe ajudar?",
-            "Como você está?",
-            "Você precisa de alguma ajuda?"
-          ],
-          "not": [
-            "Como eu posso ajudar a Sra.?",
-            "Como o Sr. está?",
-            "Tu precisa de alguma ajuda?"
-          ]
+          "text": "<strong>*</strong><em>Apesar e a gramática indicar o uso do “lhe”, em alguns casos de linguagem falada podemos optar pelo uso do “te” para soarmos mais informais.</em>"
         }
-      ],
-      "text": "<strong>*</strong><em>Apesar e a gramática indicar o uso do “lhe”, em alguns casos de linguagem falada podemos optar pelo uso do “te” para soarmos mais informais.</em>"
+      ]
     }
   ],
   "yellowSection": {

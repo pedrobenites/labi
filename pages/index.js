@@ -32,7 +32,9 @@ const Header = () => (
         </h1>
       </div>
     </header>
-    <ButtonIcon icon="video-outline">Veja o vídeo</ButtonIcon>
+    <ButtonIcon icon="video-outline" href="https://youtu.be/oMISVq6fvuc" target="_blank">
+      Veja o vídeo
+    </ButtonIcon>
   </div>
 )
 

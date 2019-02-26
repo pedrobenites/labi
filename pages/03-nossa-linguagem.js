@@ -29,21 +29,30 @@ const Section1 = () => (
   </Slider>
 )
 
-const SlideLinguages = ({ title, comparativeList = [], ...otherSlide }, key) => (
+const SlideLinguages = ({ title, blocks }, key) => (
   <Slide key={key}>
     <div style={{ maxWidth: 400 }}>
       <H2>{title}</H2>
       <div className="PV2x">
-        <ComponentList component={Comparative}>
-          {comparativeList}
+        <ComponentList component={Block}>
+          {blocks}
         </ComponentList>
-        {otherSlide && <OtherSlide {...otherSlide} />}
       </div>
     </div>
   </Slide>
 )
 
-const OtherSlide = ({ list, text, warning }) => (
+const Block = ({ title, comparativeList = [], ...otherSlide }) => (
+  <div className="PV1x">
+    <H2>{title}</H2>
+    <ComponentList component={Comparative}>
+      {comparativeList}
+    </ComponentList>
+    {otherSlide && <OtherSlide {...otherSlide} />}
+  </div>
+)
+
+const OtherSlide = ({ list, subtitle, text, warning }) => (
   <div className="ColorGray FS3x SingleSpace">
     {list && (
       <div className=" PV1x MHAuto" style={{ maxWidth: 310 }}>
@@ -52,18 +61,11 @@ const OtherSlide = ({ list, text, warning }) => (
         ))}
       </div>
     )}
+    <p className="Saira LightColorPrimary">{subtitle}</p>
     {text && (
       <p className=" PV1x">
         <HTML>{text}</HTML>
       </p>
-    )}
-    {warning && (
-      <>
-        <p className="Saira LightColorPrimary">{warning.title}</p>
-          <p>
-            {warning.text}
-          </p>
-      </>
     )}
   </div>
 )
