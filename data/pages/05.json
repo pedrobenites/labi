@@ -7,9 +7,10 @@
       "number": "05",
       "title": "Respostas rápidas e certeiras",
       "text": "Na nossa sessão de respostas rápidas e certeiras você vai encontrar dicas de como responder as perguntas mais comuns que recebemos no nosso dia a dias.",
-      "cta": "Nossas respostas"
+      "cta": "Melhores respostas"
     },
     "footer": {
+      "text": "Confira o nosso glossário e tire todas as suas dúvidas em relação aos termos que usamos em nossas unidades.",
       "href": "/06-glossario"
     }
   },
@@ -57,31 +58,154 @@
     },
     {
       "title": "Como fazer exames",
-      "description": "description"
+      "list": [
+        {
+          "title": "Eu preciso agendar meus exames?",
+          "text": "A maioria dos exames não precisam ser agendados, apenas exames que exigem preparos com materiais especiais. Você gostaria que eu consultasse se o seu exame requer algum preparo especial?"
+        },
+        {
+          "title": "Preciso levar algum documento para fazer meus exames?",
+          "text": "Sim! É necessário apresentar um documento válido com foto, pode ser carteira de identidade, CNH, passaporte ou carteira de trabalho."
+        },
+        {
+          "title": "E se eu tiver perdido meu documento?",
+          "text": "Nesse caso, nós aceitamos cópias ou foto do documento original. "
+        },
+        {
+          "title": "Posso agendar a coleta domiciliar para quando?",
+          "text": "As coletas domiciliares podem ser feitas de segunda a sábado, das 10h às 18h. E ela pode ser feita a partir do dia seguinte ao pagamento dos exames. Posso consultar nossa agenda agora mesmo, qual o melhor dia para você?"
+        },
+        {
+          "title": "Como eu me preparo?",
+          "text": "Cada exame exige um tipo de preparo específico e alguns não precisam de nenhum preparo especial. Você sabe me dizer quais exames irá realizar? Após saber o exame, consulte o nosso documento com a lista de todos os tipos de preparo."
+        },
+        {
+          "title": "Preciso fazer jejum?",
+          "text": "A maioria dos exames não precisa de jejum. Sempre que necessário nós iremos informar você. Gostaria de consultar se seus exames precisam de jejum? Pode me informar quais exames irá fazer?"
+        },
+        {
+          "title": "Por que não precisa de jejum para o exame de triglicérides?",
+          "text": "Os valores de referência são apresentados para pacientes com e sem jejum, por isso não é obrigatório. Mas se você estiver fazendo por pedido médico, precisamos observar se foi pedido algum método específico."
+        },
+        {
+          "title": "Posso beber antes de fazer o exame toxicológico?",
+          "text": "Sim, o exame toxicológico acusa somente o consumo de drogas ilícitas."
+        },
+        {
+          "title": "O resultado sai em quantos dias?",
+          "text": "O tempo de liberação dos resultados varia em média de 2 a 6 dias úteis. Porém posso consultar para você o prazo exato do seu resultado. Você pode confirmar seu nome para mim, por favor?"
+        },
+        {
+          "title": "Vocês entregam os resultados em casa?",
+          "text": "Não entregamos em casa, o resultado pode ser retirado nas nossas unidades de coleta e pela internet através do nosso site. Basta você fazer o login com o usuário e senha que estão impressos no documento que você recebeu após a coleta. Você tem ele ai? Se quiser posso confirmar seus dados de acesso pela internet."
+        },
+        {
+          "title": "Vocês entregam os resultados pelo WhatsApp ou por e-mail?",
+          "text": "Sim. Para receber os seus resultados pelo Whats basta você nos encaminhar o número do protocolo e senha que recebeu no momento da coleta."
+        },
+        {
+          "title": "Quais os dias e horários de funcionamento das unidades?",
+          "text": "Nós funcionamos de segunda à sexta das 7h às 15h e aos sábados das 7h às 12h."
+        },
+        {
+          "title": "Onde fica o Labi?",
+          "text": "Nós temos 7 unidades de coleta em São Paulo (nos bairros Centro, Pinheiros, Vila Mariana, Tatuapé, Santana e Santo Amaro) e uma em Santo André (no centro). No nosso site você pode consultar todos os endereços completos, as linhas de metrô que levam até eles e os estacionamentos mais próximos! "
+        }
+      ]
     },
     {
-      "title": "Pagamento e Convênios",
-      "description": "description"
+      "title": "Pagamento e convênios",
+      "list": [
+        {
+          "title": "Por que os preços são tão baixos?",
+          "text": "Nós somos especialistas em exames de análises clínicas, um tipo de exame que não exige equipamentos caros nem uma equipe técnica grande. Com isso nós conseguimos entregar um serviço de alta qualidade em um estrutura prática e compacta. "
+        },
+        {
+          "title": "Vocês aceitam convênio? Quais?",
+          "text": "Sim, atendemos Porto Seguro, Itaú, Seguros Unimed e Interclínicas. No nosso site você pode consultar em quais unidades cada um dos convênios é aceito."
+        },
+        {
+          "title": "Quais meios de pagamento vocês aceitam?",
+          "text": "Nós aceitamos dinheiro, cartão de débito e cartão de crédito."
+        },
+        {
+          "title": "Eu posso parcelar no cartão?",
+          "text": "Sim! Em até 12 vezes, com parcelas mínimas de R$5,00."
+        },
+        {
+          "title": "Quando recebo a nota fiscal?",
+          "text": "Todas as notas fiscais são emitidas no fim do mês, no site da prefeitura. E são enviadas por e-mail para os pacientes. Você teria alguma urgência no recebimento da nota?"
+        },
+        {
+          "title": "Eu preciso receber a minha nota o quanto antes. Como podemos fazer?",
+          "text": "Em casos como o seu conseguimos encaminhar a nota em 1 semana, pode ser?"
+        }
+      ]
     },
     {
       "title": "Agendamento",
-      "description": "description"
+      "list": [
+        {
+          "title": "Como funciona o agendamento da coleta domiciliar?",
+          "text": "Você será informado sobre quem será responsável pela sua coleta. Ela deverá ser realizada por essa pessoa que chegará no endereço combinado na hora do agendamento."
+        }
+      ]
     },
     {
-      "title": "Resultados de Exames",
-      "description": "description"
+      "title": "Resultados de exames",
+      "list": [
+        {
+          "title": "Recebi o resultado do meu exame e não estou entendendo nada. O que eu faço?",
+          "text": "Você pode me passar seu nome completo, por favor? Eu pedirei para alguém da nossa equipe médica entrar em contato para te orientar."
+        },
+        {
+          "title": "Vocês enviam resultados de exames por WhatsApp?",
+          "text": "Não, nós não enviamos nenhuma tipo de resultado de exames por WhatsApp. Mas se você quiser eu posso reenviar o seu número de protocolo e lhe mostrar um passo a passo de como consultar o seu resultado em nosso site."
+        }
+      ]
     },
     {
-      "title": "Necessidade de Recoleta",
-      "description": "description"
+      "title": "Necessidade de recoleta",
+      "list": [
+        {
+          "title": "DISCURSO 01 - Exames que permitem coleta domiciliar",
+          "text": "Bom dia Clara, tudo bem? Aqui é a Carol do Labi. Estou ligando para te informar que infelizmente precisaremos fazer uma nova coleta do exame XXX. Sentimos muito por isso, mas em alguns casos eventualmente as amostras são danificadas. Para garantirmos a qualidade do seu exame vamos precisar repetir a coleta. De qualquer forma, queremos minimizar ao máximo o transtorno que isso pode causar. E gostaríamos de oferecer uma coleta domiciliar gratuita. Pode ser?"
+        },
+        {
+          "title": "DISCURSO 02 -  Exames que não permitem coleta domiciliar",
+          "text": "Boa tarde Clara, tudo bem? Aqui é a Carol do Labi. Estou ligando para informar que infelizmente precisaremos fazer uma nova coleta do exame XXX. Sentimos muito por isso, mas em alguns casos eventualmente as amostras são danificadas. E para garantirmos a qualidade do seu exame precisaremos refazê-lo. Normalmente, oferecemos uma coleta domiciliar em casos como esse, porém o exame XXX não pode ser realizado em casa. Por isso, gostaríamos de te oferecer um voucher da Uber de R$50,00 para facilitar o seu transporte e 30% de desconto no seu próximo exame com a gente. "
+        }
+      ]
     },
     {
-      "title": "Atraso no Resultado",
-      "description": "description"
+      "title": "Atraso no resultado",
+      "list": [
+        {
+          "title": "DISCURSO 01 - Até 2 dias de atraso",
+          "text": "Bom dia Clara, tudo bem? Eu sou a Luana do Labi. Estou ligando para te informar que o resultado do seu exame xxx vai ser liberado com 1 dia de atraso. Peço desculpas pelo incômodo. Algumas situações como essas fogem do nosso controle, mas estamos trabalhando para liberar o resultado o quanto antes. Como demonstração do nosso cuidado gostaríamos de te oferecer um voucher de 50% de desconto no seu próximo exame. Pode ser?"
+        },
+        {
+          "title": "DISCURSO 02 - Entre 3 e 4 dias de atraso",
+          "text": "Bom dia Clara, tudo bem? Eu sou a Luana do Labi. Estou ligando para informar que o resultado do seu exame xxx vai ser liberado com 1 dia de atraso. Peço desculpas pelo incômodo. Algumas situações como essas fogem do nosso controle, mas estamos trabalhando para liberar o resultado o quanto antes. Como demonstração do nosso cuidado gostaríamos de oferecer um Check-up das Gorduras no Sangue para você utilizar em uma próxima vez aqui com a gente. Pode ser?"
+        },
+        {
+          "title": "DISCURSO 03 - Mais de 4 dias de atraso",
+          "text": "Deve ser tratado como um caso especial a ser analisado pela equipe de marketing e financeira."
+        }
+      ]
     },
     {
-      "title": "Outras Dúvidas Comuns",
-      "description": "description"
+      "title": "Outras dúvidas comuns",
+      "list": [
+        {
+          "title": "Como posso enviar meu curriculo?",
+          "text": "Você pode encaminhar seu currículo por e-mail para rh@labiexames.com.br. Boa sorte! 🍀"
+        },
+        {
+          "title": "Como faço para falar com o administrativo?",
+          "text": "Você pode encaminhar um e-mail para adm@labiexames.com.br. Posso te ajudar com mais alguma coisa?"
+        }
+      ]
     }
   ]
 }

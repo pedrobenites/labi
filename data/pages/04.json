@@ -6,101 +6,203 @@
     "header": {
       "number": "04",
       "title": "Comunicação por canal",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "text": "Canais são formas que temos para entrar em contato com nossos clientes. Cada um de nossos canais tem características próprias que devemos respeitar sempre.",
       "cta": "Nossos canais"
     },
     "footer": {
+      "text": "Temos todas as respostas para aquelas perguntas que vão aparecer com frequência no seu dia a dia.",
       "href": "/05-respostas-certeiras"
     }
+  },
+  "section1": {
+    "text": "No Labi, temos 5 canais de atendimento principais onde interagimos com nossos clientes:"
   },
   "faq": [
     {
       "color": "#F5F5F5",
-      "step": "WHATSAPP",
+      "title": "WHATSAPP",
       "slides": [
         {
-          "imageUrl": null,
-          "title": "Objetivo Principal:",
-          "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-          "list": []
+          "title": "Escala de Comunicação",
+          "subtitle": "Tirar dúvidas gerais sobre produtos, orçamentos e preparo para exames.",
+          "blockList": {
+            "title": "Também usamos para:",
+            "bulletListType": false,
+            "list": [
+              "1. Enviar promoções",
+              "2. Fazer atendimento pós-venda",
+              "3. Orientar sobre o acesso ao resultado"
+            ]
+          },
+          "blockScale": {
+            "active": 30,
+            "reactive": 70
+          }
         },
         {
-          "imageUrl": "null",
-          "title": null,
-          "subtitle": null,
-          "list": []
+          "imageUrl": "/static/img/Escala_Whatsapp"
+        },
+        {
+          "title": "Dicas do Canal",
+          "blockList": {
+            "bulletListType": true,
+            "list": [
+              "Não envie textos muito longos em uma única mensagem.",
+              "Pergunte se o cliente prefere receber o atendimento por áudios.",
+              "Aproveite para solicitar a foto do exame médico caso haja alguma dúvida em relação ao orçamento dos exames.",
+              "Nunca faça ligações pelo app."
+            ]
+          }
         }
       ]
     },
     {
       "color": "#F0F0F0",
-      "step": "TELEFONE",
+      "title": "TELEFONE",
       "slides": [
         {
-          "imageUrl": null,
-          "title": "Objetivo Principal:",
-          "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-          "list": []
+          "title": "Escala de Comunicação",
+          "subtitle": "Tirar dúvidas gerais sobre produtos, orçamentos e preparo para exames.",
+          "blockList": {
+            "title": "Também usamos para:",
+            "bulletListType": false,
+            "list": [
+              "1. Orientação médica pós-resultado",
+              "2. Informar necessidade de recoleta",
+              "3. Fazer atendimento pós-venda"
+            ]
+          },
+          "blockScale": {
+            "active": 30,
+            "reactive": 70
+          }
         },
         {
-          "imageUrl": null,
-          "title": null,
-          "subtitle": null,
-          "list": []
+          "imageUrl": "/static/img/Escala_Telefone"
+        },
+        {
+          "title": "Dicas do Canal",
+          "blockList": {
+            "bulletListType": true,
+            "list": [
+              "Evite deixar chamadas em espera.",
+              "Seja empático e atencioso casa o cliente não entenda alguma informação e você precise repetí-la.",
+              "Caso você não tenha alguma resposta, pegue o número do cliente para retornar mais tarde.",
+              "Demostre alegria e confiaça ao falar.",
+              "Pergunte sempre se você pode ajudar me algo mais ao final de um atendimento."
+            ]
+          }
         }
       ]
     },
     {
       "color": "#EBEBEB",
-      "step": "FACEBOOK",
+      "title": "REDES SOCIAIS",
       "slides": [
         {
-          "imageUrl": null,
-          "title": "Objetivo Principal:",
-          "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-          "list": []
+          "title": "Escala de Comunicação",
+          "subtitle": "Ampliar nossa mensagem no Facebook e Instagram, criando um universo dês conteúdos que promovam a marca.",
+          "blockList": {
+            "title": "Também usamos para:",
+            "bulletListType": false,
+            "list": [
+              "1. Comunicar promoções",
+              "2. Fazer atendimento e tirar dúvidas",
+              "3. Fazer relacionamento com imprensa"
+            ]
+          },
+          "blockScale": {
+            "active": 50,
+            "reactive": 50
+          }
         },
         {
-          "imageUrl": null,
-          "title": null,
-          "subtitle": null,
-          "list": []
+          "imageUrl": "/static/img/Escala_RedesSociais"
+        },
+        {
+          "title": "Dicas do Canal",
+          "blockList": {
+            "bulletListType": true,
+            "list": [
+              "Evite o excesso de informalidade e não confunda a conta do Labi com sua conta pessoal.",
+              "Resolva as demandas que surgirem em redes sociais no próprio canal, estando orientar que o cliente ligue para a central para tirar a dúvida.",
+              "Lembre-se sempre das orientações gerais sobre gramática da nossa linguagem."
+            ]
+          }
         }
       ]
     },
     {
       "color": "#E6E6E6",
-      "step": "E-MAIL",
+      "title": "E-MAIL",
       "slides": [
         {
-          "imageUrl": null,
-          "title": "Objetivo Principal:",
-          "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-          "list": []
+          "title": "Escala de Comunicação",
+          "subtitle": "Comunicar sobre o processo de compra de exames no site.",
+          "blockList": {
+            "title": "Também usamos para:",
+            "bulletListType": false,
+            "list": [
+              "1. Promover campanhas de vendas",
+              "2. Engajar nossos clientes",
+              "3. Coletar dados de satsfação"
+            ]
+          },
+          "blockScale": {
+            "active": 70,
+            "reactive": 30
+          }
         },
         {
-          "imageUrl": null,
-          "title": null,
-          "subtitle": null,
-          "list": []
+          "imageUrl": "/static/img/Escala_Email"
+        },
+        {
+          "title": "Dicas do Canal",
+          "blockList": {
+            "bulletListType": true,
+            "list": [
+              "Opte sempre por mensagem mais visuais e esquematizadas para facilitar o entendimento.",
+              "Aposte em títulos que despertem a atenção do cliente que recebe a mensagem.",
+              "Não escreva textos muito longo no corpo do email."
+            ]
+          }
         }
       ]
     },
     {
       "color": "#E2E2E2",
-      "step": "UNIDADES",
+      "title": "UNIDADES",
       "slides": [
         {
-          "imageUrl": null,
-          "title": "Objetivo Principal:",
-          "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-          "list": []
+          "title": "Escala de Comunicação",
+          "subtitle": "Apresentar os serviços e converter os atendimentos em vendas efetivas de exames e check-ups.",
+          "blockList": {
+            "title": "Também usamos para:",
+            "bulletListType": false,
+            "list": [
+              "1. Materializar conceito de qualidade",
+              "2. Tangibilizar a experiência virtual",
+              "3. Coleta de amostras para os exames"
+            ]
+          },
+          "blockScale": {
+            "active": 50,
+            "reactive": 50
+          }
         },
         {
-          "imageUrl": null,
-          "title": null,
-          "subtitle": null,
-          "list": []
+          "imageUrl": "/static/img/Escala_Unidades"
+        },
+        {
+          "title": "Dicas do Canal",
+          "blockList": {
+            "bulletListType": true,
+            "list": [
+              "Olhe sempre nos olhos do cliente ao realizar um atendimento.",
+              "Evite se esconder atrás de telas e não dar a atenção necessária para o cliente.",
+              "Não se esqueça: você é a representação humana do Labi para o cliente, surpreenda-o com a sua postura profissional."
+            ]
+          }
         }
       ]
     }

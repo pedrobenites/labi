@@ -1,22 +1,20 @@
 import React from 'react'
-import { page, pillars, slides } from 'data/pages/01.json'
-import Button from 'components/Common/Button'
+import { page, pillars, slides, yellowSection } from 'data/pages/01.json'
 import Collapse from 'components/Common/Collapse'
 import ComponentList from 'components/Common/ComponentList'
 import HTML from 'components/HTML/HTML'
 import H2 from 'components/HTML/H2'
 import P from 'components/HTML/P'
 import PageView from 'components/Views/PageView'
-import Section from 'components/HTML/Section'
-import ScrollTo from 'components/Common/ScrollTo'
 import Slider from 'components/Slider/Slider'
 import Slide from 'components/Slider/Slide'
 import Thumbnail from 'components/Pages/Thumbnail'
+import YellowSection from 'components/Pages/YellowSection'
 
 export default () => (
   <PageView {...page}>
     <SectionValues />
-    <SectionPillars />
+    <YellowSection {...yellowSection} />
     <SectionPillarsSlides />
   </PageView>
 )
@@ -35,19 +33,6 @@ const SectionValues = () => (
 )
 
 const parseTextHtmlStrong = html => html.replace(/<strong>/g, '<strong class="ColorPrimary Opacity7">')
-
-const SectionPillars = () => (
-  <Section className="BGSecondary">
-    <H2>Mas o que importa é transformar palavras em ação, não é mesmo?</H2>
-    <P>
-      Transformamos os nossos valores em 3 pilares, que são a nossa fórmula
-      secreta parade como garantir que todos eles estarão presentes no nosso dia-a-dia SEMPRE!
-    </P>
-    <ScrollTo to="pilares">
-      <Button className="BtnOutlineInverted">Nossos pilares</Button>
-    </ScrollTo>
-  </Section>
-)
 
 const SectionPillarsSlides = () => (
   <Slider id="pilares" className="TextCenter BGWhite">

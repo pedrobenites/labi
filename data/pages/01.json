@@ -10,6 +10,7 @@
       "cta": "Nossos valores"
     },
     "footer": {
+      "text": "Gostou dos nossos valores e dos nossos pilares de ação? Espere até ver eles na prática…",
       "href": "/02-colocando-em-pratica"
     }
   },
@@ -33,13 +34,25 @@
     {
       "letter": "e.",
       "text": "Buscamos ser <strong>justos e transparentes sempre</strong>."
+    },
+    {
+      "letter": "f.",
+      "text": "<strong>Ética e qualidade</strong> são inegociáveis."
     }
   ],
+  "yellowSection": {
+    "title": "Mas o que importa é transformar palavras em ação, não é mesmo?",
+    "text": "Transformamos os nossos valores em 3 pilares, que são a nossa fórmula secreta para garantir que todos eles estarão presentes no nosso dia-a-dia SEMPRE!",
+    "cta": {
+      "text": "NOSSOS PILARES",
+      "scrollTo": "pilares"
+    }
+  },
   "pillars": [
     {
       "imageUrl": "/static/img/Logo_Acolher.svg",
       "title": "Acolher",
-      "text": "Fazemos os pacientes se sentirem especiais com um tratamento empático e humanizado.",
+      "text": "Fazemos os clientes se sentirem especiais com um tratamento empático e humanizado.",
       "faq": [
         {
           "title": "O que fazer",
@@ -47,16 +60,16 @@
             "Seja gentil ao escolher as palavras que escreve nos nossos canais de atendimento on-line",
             "Seja receptivo, pergunte se está tudo bem, ofereça ajuda e, no atendimento pessoal, busque sorrir sempre",
             "Olhe nos olhos das pessoas quando elas falam",
-            "Entenda que esta não é uma situação corriqueira para o paciente e faça ele se sentir confortável"
+            "Entenda que esta não é uma situação corriqueira para o cliente e faça ele se sentir confortável"
           ]
         },
         {
           "title": "O que evitar",
           "description": [
-            "Não fale com outras pessoas enquanto atende um paciente pelo telefone",
-            "Não deixe o paciente se sentir pedindo favores",
-            "Evite olhar para telas enquanto estiver em uma conversa com um paciente",
-            "Não termine o atendimento com uma resposta, faça sempre uma pergunta a mais."
+            "Não fale com outras pessoas enquanto atende um cliente pelo telefone",
+            "Não deixe o cliente se sentir pedindo favores",
+            "Evite olhar para telas enquanto estiver em uma conversa com um cliente",
+            "Não termine o atendimento com uma resposta, faça sempre uma pergunta a mais ao cliente"
           ]
         }
       ]
@@ -77,8 +90,8 @@
         {
           "title": "O que evitar",
           "description": [
-            "Não seja prolixo ao falar sobre qualquer assunto",
-            "Se não tiver uma resposta avise o paciente que você vai em busca de orientação imediatamente",
+            "Não enrole ao falar sobre qualquer assunto com um cliente",
+            "Se não tiver uma resposta avise o cliente que você vai em busca de orientação imediatamente",
             "Não dê informações de forma complexa e abstrata usando palavras técnicas e assustadoras"
           ]
         }
@@ -87,22 +100,22 @@
     {
       "imageUrl": "/static/img/Logo_Facilitar.svg",
       "title": "Facilitar",
-      "text": "Materializamos o jeito inteligente como fazemos as coisas no Labi surpreendendo as pessoas com conforto e praticidade.",
+      "text": "Materializamos o jeito inteligente de fazer as coisas no Labi surpreendendo as pessoas com conforto e praticidade.",
       "faq": [
         {
           "title": "O que fazer",
           "description": [
             "Vá além da solução óbvia e surpreenda",
-            "Ofereça sempre a solução mais cômoda para o paciente",
-            "Trate cada caso como um caso único e especial"
+            "Busque sempre a solução mais cômoda para o cliente",
+            "Demonstre que vamos resolver os problemas de forma simples e rápida"
           ]
         },
         {
           "title": "O que evitar",
           "description": [
-            "Não seja pessimista ao avaliar as possibilidades de solução para o problema do paciente",
-            "Não faça uma solução parecer um problema para o dia a dia do paciente",
-            "Evite tratamentos massificados ao transformar pessoas em números"
+            "Não seja pessimista ao avaliar as possibilidades de solução para o problema do cliente",
+            "Não faça uma solução parecer um problema para o dia a dia do cliente",
+            "Evite parecer que somos burocráticos e lentos para resolver os problemas"
           ]
         }
       ]

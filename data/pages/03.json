@@ -10,10 +10,32 @@
       "cta": "Nossa linguagem"
     },
     "footer": {
+      "text": "Vem conhecer os nossos canais para entender onde vamos aplicar todas essas orientações de linguagem.",
       "href": "/04-comunicacao-por-canal"
     }
   },
   "slides": [
+    {
+      "title": "Olá, nós somos o Labi Exames!",
+      "warning": {
+        "title": "Nosso nome",
+        "text": "Nosso nome completo é Labi Exames e o usamos sempre que formos nos apresentar pela primeira vez, mas o conhecidos nos chamam apenas de Labi."
+      }
+    },
+    {
+      "title": "Mas como fala?",
+      "text": "A pronúncia correta é <em>Labí</em>. Isso mesmo, como se houvesse um acento no “i”. Não pronunciamos <em>Lábi</em>, nem <em>Lébi</em> e muito menos <em>Lêibi</em>, ok?"
+    },
+    {
+      "title": "Gênero, número e grau",
+      "comparativeList": [
+        {
+          "title": "Acentos",
+          "yes": "O Labi Exames, O Labi, O Labi, As unidades do Labi",
+          "not": "A Labi Exames, A Labi, O laboratório Labi, Os Labis"
+        }
+      ]
+    },
     {
       "title": "Nós falamos o português correto sempre",
       "comparativeList": [
@@ -29,13 +51,31 @@
         },
         {
           "title": "Pontuação",
-          "yes": [ "Obrigada!", "Até o seu exame." ],
-          "not": [ "Obrigada", "Ate o seu exame" ]
+          "yes": [
+            "Obrigada!",
+            "Até o seu exame."
+          ],
+          "not": [
+            "Obrigada",
+            "Ate o seu exame"
+          ]
         },
         {
           "title": "Abreviações",
-          "yes": [ "você", "por favor", "tudo bem", "sempre", "estou" ],
-          "not": [ "vc", "pfv", "td", "smp", "to" ]
+          "yes": [
+            "você",
+            "por favor",
+            "tudo bem",
+            "sempre",
+            "estou"
+          ],
+          "not": [
+            "vc",
+            "pfv",
+            "td",
+            "smp",
+            "to"
+          ]
         }
       ]
     },
@@ -49,7 +89,7 @@
         "😁 Beaming face with smiling eyes",
         "👉 Backhand index pointing right"
       ],
-      "text": "O 🍀 é um emoji especial, que só pode ser utilizado para desejar boa a sorte a pessoas inscritas nos nossos processos seletivos.",
+      "text": "<em>O 🍀 é um emoji especial, que só pode ser utilizado para desejar boa a sorte a pessoas inscritas nos nossos processos seletivos.</em>",
       "warning": {
         "title": "E não se esqueça:",
         "text": "Nunca deseje boa sorte a um paciente."
@@ -60,20 +100,44 @@
       "comparativeList": [
         {
           "title": "Pronomes",
-          "yes": [ "você",  "lhe", "" ],
-          "not": [ "Sr. Sra.", "Srta.", "Tu" ]
+          "yes": [
+            "você",
+            "lhe/te*"
+          ],
+          "not": [
+            "Sr. Sra.",
+            "Srta.",
+            "Tu"
+          ]
         },
         {
           "title": "Exemplo",
-          "yes": [ "Como eu posso lhe ajudar?", "Como você está?", "Você precisa de alguma ajuda?", "Quer que eu lhe alcance?" ],
-          "not": [ "Como eu posso ajudar a Sra.?", "Como o Sr. está?", "Tu precisa de alguma ajuda?", "Quer que eu alcance para Srta.?" ]
+          "yes": [
+            "Como eu posso lhe ajudar?",
+            "Como você está?",
+            "Você precisa de alguma ajuda?"
+          ],
+          "not": [
+            "Como eu posso ajudar a Sra.?",
+            "Como o Sr. está?",
+            "Tu precisa de alguma ajuda?"
+          ]
         }
-      ]
+      ],
+      "text": "<strong>*</strong><em>Apesar e a gramática indicar o uso do “lhe”, em alguns casos de linguagem falada podemos optar pelo uso do “te” para soarmos mais informais.</em>"
     }
   ],
+  "yellowSection": {
+    "title": "Como aplicar isso em contextos diferentes de comunicação?",
+    "text": "Nós praticamos 2 tipos de linguagem, a ATIVA e a REATIVA. Elas permitem que nós sejamos acolhedores sem desrespeitar as nossas regras de linguagem em diferentes contextos de comunicação.",
+    "cta": {
+      "text": "VAMOS LÁ",
+      "scrollTo": "linguagem"
+    }
+  },
   "linguage1": {
     "title": "NOSSA LINGUAGEM ATIVA",
-    "slide1":  {
+    "slide1": {
       "list": [
         "Quando nós <strong>começamos</strong> uma conversa.",
         "Quando estamos <strong>entrando em contato</strong> com alguém pelo telefone, e-mail ou redes sociais.",
@@ -81,10 +145,14 @@
       ]
     },
     "slide2": {
-      "text": "Quando estamos nos comunicando de forma ativa precisamos focar nos scripts do Guia de Comunicação, usar uma linguagem mais formal.",
+      "text": "Quando estamos nos comunicando de forma ativa precisamos focar nos scripts de atendimento, usar uma linguagem mais formal.",
       "listTitle": "Nesse caso, nunca usamos:",
       "maxWidth": 280,
-      "list": [ "Gifs", "Emojis", "Mensagens de Áudio" ]
+      "list": [
+        "Gifs",
+        "Emojis",
+        "Mensagens de Áudio"
+      ]
     }
   },
   "linguage2": {
@@ -92,17 +160,17 @@
     "slide1": {
       "list": [
         "Quando <strong>outra pessoa começa uma conversa</strong> com a gente.",
-        "Quando um <strong>paciente nos chama</strong> em algum dos nossos canais de atendimento.",
-        "Quando pacientes <strong>interagem conosco</strong> nas nossas redes sociais <strong>de forma espontânea</strong>."
+        "Quando um <strong>cliente nos chama</strong> em algum dos nossos canais de atendimento.",
+        "Quando clientes <strong>interagem conosco</strong> nas nossas redes sociais <strong>de forma espontânea</strong>."
       ]
     },
     "slide2": {
-      "text": "Quando estamos nos comunicando de forma reativa podemos nos adaptar a forma de linguagem do paciente. Essa técnica transparece empatia e permite que o paciente se sinta mais confortável.",
+      "text": "Quando estamos nos comunicando de forma reativa podemos nos adaptar a forma de linguagem do cliente. Essa técnica transparece empatia e permite que o cliente se sinta mais confortável.",
       "listTitle": "Por exemplo:",
       "list": [
-        "Se um paciente lhe mandar gifs você pode respondê-lo com gifs",
-        "Se um paciente lhe emojis você pode respondê-lo com emojis, desde que sejam os nossos emojis!",
-        "Se um paciente se comunicar por mensagens de áudio você pode respondê-los com mensagens de áudio. Fique atento muitos pacientes usam essas mensagens quando tem dificuldade de leitura."
+        "Se um cliente lhe enviar gifs, você pode respondê-lo com gifs também",
+        "Se um cliente lhe enviar emojis você pode respondê-lo com emojis também, desde que sejam os nossos emojis!",
+        "Se um cliente se comunicar por mensagens de áudio você pode respondê-los com mensagens de áudio. Fique atento muitos clientes usam essas mensagens quando tem dificuldade de leitura."
       ]
     }
   }

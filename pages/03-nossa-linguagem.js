@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { page, slides, linguage1, linguage2 } from 'data/pages/03.json'
+import { page, slides, linguage1, linguage2, yellowSection } from 'data/pages/03.json'
 import Button from 'components/Common/Button'
 import ComponentList from 'components/Common/ComponentList'
 import H2 from 'components/HTML/H2'
@@ -12,11 +12,12 @@ import ScrollTo from 'components/Common/ScrollTo'
 import Section from  'components/HTML/Section'
 import Slide from 'components/Slider/Slide'
 import Slider from 'components/Slider/Slider'
+import YellowSection from 'components/Pages/YellowSection'
 
 export default () => (
   <PageView {...page}>
     <Section1 />
-    <Section2 />
+    <YellowSection {...yellowSection} />
     <SectionLinguage {...linguage1} className="BGLightGray" />
     <SectionLinguage {...linguage2} className="BGWhite" />
   </PageView>
@@ -53,7 +54,7 @@ const OtherSlide = ({ list, text, warning }) => (
     )}
     {text && (
       <p className=" PV1x">
-        <em>{text}</em>
+        <HTML>{text}</HTML>
       </p>
     )}
     {warning && (
@@ -96,22 +97,6 @@ const ComparativeColumn = ({ texts, icon, style }) => (
     </div>
   </div>
 )
-
-const Section2 = () => (
-  <Section className="BGSecondary">
-    <H2>
-      Título lorem ipsum sobre linguagem ativa e passiva
-    </H2>
-    <P>
-      Nós praticamos 2 tipos de linguagem, a ATIVA e a REATIVA.
-      Elas permitem que nós sejamos acolhedores sem desrespeitar as nossas regras de linguagem.
-    </P>
-    <ScrollTo to="linguagem" offsetTop={80}>
-      <Button className="BtnOutlineInverted">Vamos lá</Button>
-    </ScrollTo>
-  </Section>
-)
-
 
 const SectionLinguage = ({ slide1, slide2, title, className }) => (
   <section id="linguagem" className={classNames(className, 'PT3x')}>

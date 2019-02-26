@@ -1,5 +1,5 @@
 import React from 'react'
-import { page, faq, historys } from 'data/pages/02.json'
+import { section1, page, faq, historys, yellowSection } from 'data/pages/02.json'
 import CollapseSlider from 'components/Common/CollapseSlider'
 import ComponentList from 'components/Common/ComponentList'
 import Link from 'components/Common/Link'
@@ -7,6 +7,7 @@ import HistoryCard from 'components/Pages/HistoryCard'
 import H2 from 'components/HTML/H2'
 import H3 from 'components/HTML/H3'
 import P from 'components/HTML/P'
+import Ul from 'components/HTML/Ul'
 import PageView from 'components/Views/PageView'
 import Section from 'components/HTML/Section'
 import { SimpleSlider } from 'components/Slider/Slider'
@@ -14,15 +15,15 @@ import Slide from 'components/Slider/Slide'
 
 export default () => (
   <PageView {...page}>
-    <Section1 />
-    <Section2 />
+    <Section1 {...section1} />
+    <SectionPlaylist {...yellowSection} />
   </PageView>
 )
 
-const Section1 = () => (
+const Section1 = ({ text }) => (
   <section className="PT40">
     <div id="target" className="Container TextCenter PH32 PT2x">
-      <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</P>
+      <P>{text}</P>
     </div>
     <ComponentList component={CollapseSlider} componentProps={{ slideComponent: SlideFaq }}>
       {faq}
@@ -45,24 +46,11 @@ const SlideFaq = ({ bigTitle, title, subtitle, list }, key) => (
   </Slide>
 )
 
-const Ul = ({ children, ...props }) => {
-  if (!children.length) return null
-  return (
-    <ul {...props}>
-      {children.map((child, key) => (
-        <li className="PV4" key={key}>{child}</li>
-      ))}
-    </ul>
-  )
-}
-
-const Section2 = () => (
+const SectionPlaylist = ({ title, text }) => (
   <Section className="BGSecondary" full>
     <div className="W80">
-      <H2>Agora, vamos exercitar com histórias reais?</H2>
-      <P>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-      </P>
+      <H2>{title}</H2>
+      <P>{text}</P>
     </div>
     <ComponentList component={HistoryCard}>
       {historys}
