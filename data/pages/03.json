@@ -20,11 +20,11 @@
       "blocks": [
         {
           "subtitle": "Nosso nome",
-          "text": "Nosso nome completo é Labi Exames e o usamos sempre que formos nos apresentar pela primeira vez, mas o conhecidos nos chamam apenas de Labi."
+          "text": "Nosso nome completo é Labi Exames e o usamos sempre que formos nos apresentar pela primeira vez. Os conhecidos nos chamam apenas de Labi."
         },
         {
           "title": "Mas como fala?",
-          "text": "A pronúncia correta é <em>Labí</em>. Isso mesmo, como se houvesse um acento no “i”. Não pronunciamos <em>Lábi</em>, nem <em>Lébi</em> e muito menos <em>Lêibi</em>, ok?"
+          "text": "A pronúncia correta é <em>Labí</em>. Isso mesmo, como se houvesse um acento no “i”. Não pronunciamos <em>Lábi</em>, nem <em>Lébi</em>, ok?"
         },
         {
           "title": "Gênero, número e grau",
@@ -55,31 +55,13 @@
             },
             {
               "title": "Pontuação",
-              "yes": [
-                "Obrigada!",
-                "Até o seu exame."
-              ],
-              "not": [
-                "Obrigada",
-                "Ate o seu exame"
-              ]
+              "yes": [ "Obrigada!", "Até o seu exame." ],
+              "not": [ "Obrigada", "Ate o seu exame" ]
             },
             {
               "title": "Abreviações",
-              "yes": [
-                "você",
-                "por favor",
-                "tudo bem",
-                "sempre",
-                "estou"
-              ],
-              "not": [
-                "vc",
-                "pfv",
-                "td",
-                "smp",
-                "to"
-              ]
+              "yes": [ "você", "por favor", "tudo bem", "sempre", "estou" ],
+              "not": [ "vc", "pfv", "td", "smp", "to" ]
             }
           ]
         }
@@ -112,40 +94,25 @@
           "comparativeList": [
             {
               "title": "Pronomes",
-              "yes": [
-                "você",
-                "lhe/te*"
-              ],
-              "not": [
-                "Sr. Sra.",
-                "Srta.",
-                "Tu"
-              ]
+              "yes": [ "você",  "lhe/te*"],
+              "not": [ "Sr. Sra.", "Srta.", "Tu" ]
             },
             {
               "title": "Exemplo",
-              "yes": [
-                "Como eu posso lhe ajudar?",
-                "Como você está?",
-                "Você precisa de alguma ajuda?"
-              ],
-              "not": [
-                "Como eu posso ajudar a Sra.?",
-                "Como o Sr. está?",
-                "Tu precisa de alguma ajuda?"
-              ]
+              "yes": [ "Como eu posso lhe ajudar?", "Como você está?", "Você precisa de alguma ajuda?"],
+              "not": [ "Como eu posso ajudar a Sra.?", "Como o Sr. está?", "Tu precisa de alguma ajuda?"]
             }
           ]
         },
         {
-          "text": "<strong>*</strong><em>Apesar e a gramática indicar o uso do “lhe”, em alguns casos de linguagem falada podemos optar pelo uso do “te” para soarmos mais informais.</em>"
+          "text": "<strong>*</strong><em>Apesar da gramática indicar o uso do “lhe”, podemos optar pelo uso do “te” para soarmos mais informais.</em>"
         }
       ]
     }
   ],
   "yellowSection": {
     "title": "Como aplicar isso em contextos diferentes de comunicação?",
-    "text": "Nós praticamos 2 tipos de linguagem, a ATIVA e a REATIVA. Elas permitem que nós sejamos acolhedores sem desrespeitar as nossas regras de linguagem em diferentes contextos de comunicação.",
+    "text": "Nós praticamos 2 tipos de linguagem, a ATIVA e a REATIVA. Elas permitem que nós sejamos acolhedores sem desrespeitar as nossas regras de linguagem em diferentes contextos de comunicação. ",
     "cta": {
       "text": "VAMOS LÁ",
       "scrollTo": "linguagem"
@@ -164,11 +131,7 @@
       "text": "Quando estamos nos comunicando de forma ativa precisamos focar nos scripts de atendimento, usar uma linguagem mais formal.",
       "listTitle": "Nesse caso, nunca usamos:",
       "maxWidth": 280,
-      "list": [
-        "Gifs",
-        "Emojis",
-        "Mensagens de Áudio"
-      ]
+      "list": [ "Gifs", "Emojis", "Mensagens de Áudio" ]
     }
   },
   "linguage2": {
@@ -184,9 +147,9 @@
       "text": "Quando estamos nos comunicando de forma reativa podemos nos adaptar a forma de linguagem do cliente. Essa técnica transparece empatia e permite que o cliente se sinta mais confortável.",
       "listTitle": "Por exemplo:",
       "list": [
-        "Se um cliente lhe enviar gifs, você pode respondê-lo com gifs também",
+        "Se um cliente lhe enviar gifs, você pode respondê-lo com gifs também.",
         "Se um cliente lhe enviar emojis você pode respondê-lo com emojis também, desde que sejam os nossos emojis!",
-        "Se um cliente se comunicar por mensagens de áudio você pode respondê-los com mensagens de áudio. Fique atento muitos clientes usam essas mensagens quando tem dificuldade de leitura."
+        "Se um cliente se comunicar por mensagens de áudio você pode respondê-los com mensagens de áudio. Fique atento, muitos clientes usam essas mensagens quando têm dificuldade de leitura."
       ]
     }
   }

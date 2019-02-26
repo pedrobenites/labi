@@ -42,8 +42,8 @@
   ],
   "yellowSection": {
     "title": "Mas o que importa é transformar palavras em ação, não é mesmo?",
-    "text": "Transformamos os nossos valores em 3 pilares, que são a nossa fórmula secreta para garantir que todos eles estarão presentes no nosso dia-a-dia SEMPRE!",
-    "cta": {
+      "text": "Transformamos os nossos valores em 3 pilares, que são a nossa fórmula secreta para garantir que todos eles estarão presentes no nosso dia-a-dia SEMPRE!",
+      "cta": {
       "text": "NOSSOS PILARES",
       "scrollTo": "pilares"
     }
@@ -91,7 +91,7 @@
           "title": "O que evitar",
           "description": [
             "Não enrole ao falar sobre qualquer assunto com um cliente",
-            "Se não tiver uma resposta avise o cliente que você vai em busca de orientação imediatamente",
+            "Se não tiver uma resposta, avise o cliente que você vai em busca de orientação imediatamente",
             "Não dê informações de forma complexa e abstrata usando palavras técnicas e assustadoras"
           ]
         }

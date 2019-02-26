@@ -6,7 +6,7 @@
     "header": {
       "number": "02",
       "title": "Colocando em prática",
-      "text": "Agora que já sabemos quem somos na teoria, vamos ver como isso funciona no nosso dia- a- dia!",
+      "text": "Agora que já sabemos quem somos na teoria, vamos ver como isso funciona no nosso dia-a-dia!",
       "cta": "Nossa experiência"
     },
     "footer": {
@@ -24,7 +24,7 @@
       "title": "Conhecimento",
       "slides": [
         {
-          "bigTitle": "A nossa relação com o cliente começa na etapa do conhecimento. Essa é a nossa oportunidade de apresentarmos o Labi, os nossos pilares e produtos.",
+          "bigTitle": "A nossa relação com o cliente começa na etapa em que ele busca nos conhecer melhor. Essa é a nossa oportunidade de apresentar o Labi, os nossos pilares e os nossos produtos.",
           "title": null,
           "subtitle": null,
           "list": []
@@ -35,28 +35,27 @@
           "subtitle": "Seja bem-vindo ao Labi Exames.",
           "list": [
             "Recebemos TODAS as pessoas com a mesma atenção e acolhimento.",
-            "Somos gentis e solícitos em TODOS os nossos canais. Sempre que possível, levante-se para receber um novo cliente, sempre ofereça para que ele sente.",
-            "Evite fazer atendimentos sentado enquanto o cliente estiver em pé em frente ao balcão."
+            "Somos gentis e solícitos em TODOS os nossos canais.",
+            "Sempre que possível, levante-se para receber um novo cliente e convide-o a sentar. Evite fazer atendimentos sentado enquanto o cliente estiver em pé em frente ao balcão."
           ]
         },
         {
           "bigTitle": null,
           "title": "APRESENTAÇÃO",
-          "subtitle": "Deixa eu lhe contar um pouco mais sobre nós!",
+          "subtitle": "Deixa eu te contar um pouco mais sobre nós!",
           "list": [
             "Ao receber um cliente que está buscando informações sobre o Labi tenha paciência para contar nossa história, demonstrar nossos diferenciais e esclarecer todas as dúvidas.",
-            "Apresente o Labi como um jeito inteligente de fazer exames, que une qualidade, conveniência e os melhores preços",
-            "Sempre apresente nossos checkups e convide o cliente para realizar um exame."
+            "Apresente o Labi como um jeito inteligente de fazer exames, que une qualidade, conveniência e os melhores preços.",
+            "Se o cliente não tiver pedido médico, apresente nossos check-ups e convide-o a experimentar."
           ]
         },
         {
           "bigTitle": null,
           "title": "ENCAMINHAMENTO",
-          "subtitle": "Todo mundo tem exames a fazer.",
+          "subtitle": "Quase todo mundo tem exames a fazer.",
           "list": [
-            "Mesmo que o cliente esteja apenas curioso, sempre existe oportunidade de oferecer um exame.",
-            "Ofereça um orçamento de exames que ele já tenha te contado que precisa fazer.",
-            "Ou então mostre os nossos checkups e convide o cliente a experimentar o Labi."
+            "Caso o cliente tenha falado que precisa fazer alguns exames específicos ou tenha um pedido médico em mãos, ofereça-se para fazer um orçamento na hora.",
+            "Ou então mostre os nossos check-ups e convide o cliente a experimentar o Labi."
           ]
         }
       ]
@@ -87,8 +86,8 @@
           "title": "COMPRA",
           "subtitle": "Como você gosta de ser atendido quando compra algo importante?",
           "list": [
-            " Explique todas as formas de pagamento possíveis: a vista, no débito, no crédito ou parcelado.",
-            "Sempre que o atendimento estiver sendo feito por canais digitais ofereça o desconto da compra pela internet.",
+            "Explique todas as formas de pagamento possíveis: à vista, no débito, no crédito ou parcelado.",
+            "Sempre que o atendimento estiver sendo feito por canais digitais, ofereça o desconto da compra pela internet.",
             "Se a compra for presencial, confirme o valor antes de passar o cartão e auxilie o cliente nesse processo."
           ]
         },
@@ -97,9 +96,9 @@
           "title": "AGENDAMENTO",
           "subtitle": "A gente facilita tudo, do início ao fim.",
           "list": [
-            "Após a compra é seu dever orientar o cliente sobre os procedimento e preparo do exame.",
-            "Se o exame exigir algum preparo mais longo sugira o agendamento do exame e ofereça a coleta domiciliar.",
-            "Se não houver nenhum preparo e o cliente estiver na unidade sugira que o exame seja feito na hora."
+            "Após a compra, é seu dever orientar o cliente sobre os procedimento e preparo do exame.",
+            "Se o exame exigir algum preparo mais longo, sugira o agendamento do exame e ofereça a coleta domiciliar.",
+            "Se não houver nenhum preparo e o cliente estiver na unidade, sugira que o exame seja feito na hora."
           ]
         }
       ]
@@ -131,8 +130,8 @@
           "title": "COLETA",
           "subtitle": "Uau! Eu nem percebi a picada da agulha!",
           "list": [
-            "Convide o cliente para se sentar e, se você perceber que ele está nervoso, ofereça para realizar a coleta deitado ou ajude a acalmá-lo",
-            "Manuseie o material de maneira clara permitindo que o cliente veja que todo o material é descartável.",
+            "Convide o cliente para se sentar e, se você perceber que ele está nervoso, ofereça para realizar a coleta deitado ou ajude a acalmá-lo.",
+            "Manuseie o material de forma visível permitindo que o cliente veja que todo o material é descartável.",
             "Mostre os tubos de coleta, explique quais serão os exames e peça para o cliente conferir o nome nas etiquetas.",
             "Deixe o cliente escolher qual braço de sua preferência para a coleta.",
             "Peça licença, garroteie, esterilize a região com álcool e faça a coleta. Depois descarte o material utilizado na frente do cliente."
@@ -141,7 +140,7 @@
         {
           "bigTitle": null,
           "title": "DESPEDIDA",
-          "subtitle": "Nosso dever de garantir que o cliente está bem para ir pra casa.",
+          "subtitle": "Nosso dever é garantir que o cliente está bem para ir pra casa.",
           "list": [
             "Entregue o protocolo, esclareça o prazo do resultado e como ele pode ser retirado: através do site ou na unidade.",
             "Para facilitar a compreensão pinte a área com o login e senha de acesso ao resultado dos exames.",
@@ -168,7 +167,7 @@
           "list": [
             "Todos precisamos estar sempre prontos para explicar como funciona a entrega dos exames e orientar como se faz para acessar o resultado online.",
             "Nós nunca podemos consultar os dados do resultado de exames de cliente. Podemos apenas consultar se o exame está pronto para ser entregue.",
-            "Quando entregue pessoalmente nunca deseje boa sorte. Apenas entregue o exame e informe que a equipe médica do Labi estará disponível caso o cliente tenha qualquer dúvida em relação aos resultados."
+            "Quando entregue pessoalmente, nunca deseje boa sorte. Apenas entregue o exame e informe que a equipe médica do Labi estará disponível caso o cliente tenha qualquer dúvida em relação aos resultados."
           ]
         },
         {
@@ -179,7 +178,7 @@
             "A ligação médica tem como objetivo orientar os clientes sobre os próximos passos. Ela não é uma consulta.",
             "É importante manter uma voz calma e não causar ansiedade no cliente.",
             "Seja simpático e positivo.",
-            "Em situações extremas peça ajuda para fazer a ligação caso tenha dúvidas sobre como abordar o cliente."
+            "Em situações extremas, peça ajuda para fazer a ligação caso tenha dúvidas sobre como abordar o cliente."
           ]
         },
         {
@@ -188,8 +187,9 @@
           "subtitle": "Estamos sempre disponíveis para dúvidas.",
           "list": [
             "Se prepare para todo o tipo de dúvida, esse guia está aqui para isso!",
-            "Sempre que estiver em um atendimento digital mantenha a calma e procure a resposta mais adequada para a dúvida do cliente.",
-            "Quando estiver em um atendimento telefônico ou presencial, se não souber a resposta, anote o telefone do cliente e ligue mais tarde com a resposta."
+            "Sempre que estiver em um atendimento digital, mantenha a calma e procure a resposta mais adequada para a dúvida do cliente.",
+            "Quando estiver em um atendimento telefônico, se não souber a resposta, anote o telefone do cliente e ligue mais tarde com a resposta.",
+            "Se estiver em um atendimento presencial e não souber a resposta, busque orientação com o coordenador da unidade."
           ]
         }
       ]

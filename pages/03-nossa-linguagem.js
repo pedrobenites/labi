@@ -137,7 +137,7 @@ const Step = ({ index, text }) => (
 
 const Slide2 = ({ text, listTitle, list, maxWidth }) => (
   <Slide>
-    <P>{text}</P>
+    <p className="ColorBlack SingleSpace MT0 PB1x Opacity5">{text}</p>
     <p className="Saira Light ColorPrimary FS4x PB24">{listTitle}</p>
     <ComponentList component={Li} componentProps={{ maxWidth }}>
       {parseList(list)}

@@ -1,12 +1,12 @@
 {
   "page": {
     "meta": {
-      "title": "Comunicação por canal"
+      "title": "Comunicação por tipo de canal"
     },
     "header": {
       "number": "04",
-      "title": "Comunicação por canal",
-      "text": "Canais são formas que temos para entrar em contato com nossos clientes. Cada um de nossos canais tem características próprias que devemos respeitar sempre.",
+      "title": "Comunicação por tipo de canal",
+      "text": "Canais são os meios pelos quais entramos em contato com nossos clientes. Cada um de nossos canais tem características próprias que devemos respeitar sempre.",
       "cta": "Nossos canais"
     },
     "footer": {
@@ -24,14 +24,13 @@
       "slides": [
         {
           "title": "Escala de Comunicação",
-          "subtitle": "Tirar dúvidas gerais sobre produtos, orçamentos e preparo para exames.",
+          "subtitle": "Tirar dúvidas gerais sobre produtos, orçamentos e preparo para exames, além de agendar a coleta domiciliar.",
           "blockList": {
             "title": "Também usamos para:",
             "bulletListType": false,
             "list": [
-              "1. Enviar promoções",
-              "2. Fazer atendimento pós-venda",
-              "3. Orientar sobre o acesso ao resultado"
+              "1. Fazer atendimento pós-venda",
+              "2. Orientar sobre o acesso ao resultado"
             ]
           },
           "blockScale": {
@@ -88,8 +87,8 @@
               "Evite deixar chamadas em espera.",
               "Seja empático e atencioso casa o cliente não entenda alguma informação e você precise repetí-la.",
               "Caso você não tenha alguma resposta, pegue o número do cliente para retornar mais tarde.",
-              "Demostre alegria e confiaça ao falar.",
-              "Pergunte sempre se você pode ajudar me algo mais ao final de um atendimento."
+              "Demostre alegria e confiança ao falar.",
+              "Pergunte sempre se você pode ajudar em algo mais ao final de um atendimento."
             ]
           }
         }
@@ -101,7 +100,7 @@
       "slides": [
         {
           "title": "Escala de Comunicação",
-          "subtitle": "Ampliar nossa mensagem no Facebook e Instagram, criando um universo dês conteúdos que promovam a marca.",
+          "subtitle": "Ampliar nossa mensagem no Facebook e Instagram, criando um universo de conteúdos que promovam a marca.",
           "blockList": {
             "title": "Também usamos para:",
             "bulletListType": false,
@@ -125,7 +124,7 @@
             "bulletListType": true,
             "list": [
               "Evite o excesso de informalidade e não confunda a conta do Labi com sua conta pessoal.",
-              "Resolva as demandas que surgirem em redes sociais no próprio canal, estando orientar que o cliente ligue para a central para tirar a dúvida.",
+              "Resolva as demandas que surgirem em redes sociais no próprio canal, evitando orientar que o cliente ligue para a central para tirar a dúvida.",
               "Lembre-se sempre das orientações gerais sobre gramática da nossa linguagem."
             ]
           }
@@ -138,14 +137,14 @@
       "slides": [
         {
           "title": "Escala de Comunicação",
-          "subtitle": "Comunicar sobre o processo de compra de exames no site.",
+          "subtitle": "Informar o clientes sobre o processo de compra no site e enviar outros tipos de comunicações ativas.",
           "blockList": {
             "title": "Também usamos para:",
             "bulletListType": false,
             "list": [
               "1. Promover campanhas de vendas",
               "2. Engajar nossos clientes",
-              "3. Coletar dados de satsfação"
+              "3. Coletar dados de satisfação"
             ]
           },
           "blockScale": {
@@ -175,14 +174,14 @@
       "slides": [
         {
           "title": "Escala de Comunicação",
-          "subtitle": "Apresentar os serviços e converter os atendimentos em vendas efetivas de exames e check-ups.",
+          "subtitle": "Apresentar os exames e check-ups e fazer a coleta das amostras com o todo o cuidado a atenção.",
           "blockList": {
             "title": "Também usamos para:",
             "bulletListType": false,
             "list": [
               "1. Materializar conceito de qualidade",
-              "2. Tangibilizar a experiência virtual",
-              "3. Coleta de amostras para os exames"
+              "2. Fazer orçamentos",
+              "3. Entregar resultados impressos"
             ]
           },
           "blockScale": {
