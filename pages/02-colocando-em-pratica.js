@@ -2,6 +2,7 @@ import React from 'react'
 import { section1, page, faq, historys, yellowSection } from 'data/pages/02.json'
 import CollapseSlider from 'components/Common/CollapseSlider'
 import ComponentList from 'components/Common/ComponentList'
+import CollapseList from 'components/Common/CollapseList'
 import Link from 'components/Common/Link'
 import HistoryCard from 'components/Pages/HistoryCard'
 import H2 from 'components/HTML/H2'
@@ -25,14 +26,23 @@ const Section1 = ({ text }) => (
     <div id="target" className="Container TextCenter PH32 PT2x">
       <P>{text}</P>
     </div>
-    <ComponentList component={CollapseSlider} componentProps={{ slideComponent: SlideFaq }}>
+    <CollapseList collapseProps={{ component: SliderFaq, full: true }}>
       {faq}
-    </ComponentList>
+    </CollapseList>
   </section>
 )
 
-const SlideFaq = ({ bigTitle, title, subtitle, list }, key) => (
-  <Slide key={key}>
+const SliderFaq = ({ slides }) => {
+  if (!slides || !slides.length) return null
+  return (
+    <SimpleSlider>
+      {slides.map((slide, key) => <SlideFaq key={key} {...slide} />)}
+    </SimpleSlider>
+  )
+}
+
+const SlideFaq = ({ bigTitle, title, subtitle, list }) => (
+  <Slide>
     <div className="Container" style={{ maxWidth: 380 }}>
       <p className="TextLeft FS6x SingleSpace Saira ColorPrimary Medium">
         {bigTitle}

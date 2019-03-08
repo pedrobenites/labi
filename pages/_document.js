@@ -12,8 +12,9 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
+          <link rel="shortcut icon" type="image/png" href="/static/favicon.png"/>
           <link href="https://fonts.googleapis.com/css?family=Saira:200,500,600" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
         </Head>

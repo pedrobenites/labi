@@ -1,7 +1,6 @@
 import React from 'react'
 import { page, pillars, slides, yellowSection } from 'data/pages/01.json'
-import Collapse from 'components/Common/Collapse'
-import ComponentList from 'components/Common/ComponentList'
+import CollapseList from 'components/Common/CollapseList'
 import HTML from 'components/HTML/HTML'
 import H2 from 'components/HTML/H2'
 import P from 'components/HTML/P'
@@ -47,14 +46,13 @@ const Pillar = ({ imageUrl, title, text, faq }) => (
     </div>
     <H2>{title}</H2>
     <P>{text}</P>
-    <ComponentList
-      component={Collapse}
-      componentProps={{
-        classNameBody: 'M0 TextCenter Opacity5 MB1x',
+    <CollapseList
+      collapseProps={{
+        className: 'M0 TextCenter Opacity5 MB1x',
         notUseClassNameDefault: true,
         isList: true,
       }}>
       {faq}
-    </ComponentList>
+    </CollapseList>
   </Slide>
 )

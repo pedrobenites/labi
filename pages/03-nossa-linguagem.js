@@ -43,8 +43,8 @@ const SlideLinguages = ({ title, blocks }, key) => (
 )
 
 const Block = ({ title, comparativeList = [], ...otherSlide }) => (
-  <div className="PV1x">
-    <H2>{title}</H2>
+  <div>
+    <H3>{title}</H3>
     <ComponentList component={Comparative}>
       {comparativeList}
     </ComponentList>
@@ -52,7 +52,7 @@ const Block = ({ title, comparativeList = [], ...otherSlide }) => (
   </div>
 )
 
-const OtherSlide = ({ list, subtitle, text, warning }) => (
+const OtherSlide = ({ list, text, warning }) => (
   <div className="ColorGray FS3x SingleSpace">
     {list && (
       <div className=" PV1x MHAuto" style={{ maxWidth: 310 }}>
@@ -61,9 +61,8 @@ const OtherSlide = ({ list, subtitle, text, warning }) => (
         ))}
       </div>
     )}
-    <p className="Saira LightColorPrimary">{subtitle}</p>
     {text && (
-      <p className=" PV1x">
+      <p className=" PB24 PT8">
         <HTML>{text}</HTML>
       </p>
     )}

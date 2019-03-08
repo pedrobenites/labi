@@ -39,7 +39,14 @@
           }
         },
         {
-          "imageUrl": "/static/img/Escala_Whatsapp"
+          "imageUrl": "/static/img/04-whatsapp.png",
+          "blockList": {
+            "title": "Nosso Whatsapp:",
+            "bulletListType": false,
+            "list": [
+              "(11) 97216.4063"
+            ]
+          }
         },
         {
           "title": "Dicas do Canal",
@@ -77,7 +84,14 @@
           }
         },
         {
-          "imageUrl": "/static/img/Escala_Telefone"
+          "imageUrl": "/static/img/04-telefone.png",
+          "blockList": {
+            "title": "Nosso telefone:",
+            "bulletListType": false,
+            "list": [
+              "(11) 2222.1091"
+            ]
+          }
         },
         {
           "title": "Dicas do Canal",
@@ -116,7 +130,15 @@
           }
         },
         {
-          "imageUrl": "/static/img/Escala_RedesSociais"
+          "imageUrl": "/static/img/04-instagram.png",
+          "blockList": {
+            "title": "Nossas redes sociais:",
+            "bulletListType": false,
+            "list": [
+              "instagram.com/labiexames",
+              "facebook.com/labiexameslaboratoriais"
+            ]
+          }
         },
         {
           "title": "Dicas do Canal",
@@ -153,7 +175,14 @@
           }
         },
         {
-          "imageUrl": "/static/img/Escala_Email"
+          "imageUrl": "/static/img/04-email.png",
+          "blockList": {
+            "title": "Nosso email:",
+            "bulletListType": false,
+            "list": [
+              "info@labiexames.com.br"
+            ]
+          }
         },
         {
           "title": "Dicas do Canal",
@@ -190,7 +219,14 @@
           }
         },
         {
-          "imageUrl": "/static/img/Escala_Unidades"
+          "imageUrl": "/static/img/04-unidades.png",
+          "blockList": {
+            "title": "Nossas unidades:",
+            "bulletListType": false,
+            "list": [
+              "Tatuapé, Santo Amaro, Centro, Pinheiros, Vila Mariana, Santana e Santo André."
+            ]
+          }
         },
         {
           "title": "Dicas do Canal",

@@ -6,7 +6,7 @@ import ScrollTo from 'components/Common/ScrollTo'
 import Section from 'components/HTML/Section'
 
 const YellowSection = ({ title, text, cta }) => (
-  <Section className="BGSecondary">
+  <Section className="BGSecondary PV1x">
     <H2>{title}</H2>
     <P>{text}</P>
     <ScrollTo to={cta.scrollTo}>
