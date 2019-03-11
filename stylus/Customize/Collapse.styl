@@ -10,7 +10,8 @@ $collapseHeight = 56px
     .IconPlus
       transitionAll();
     &:hover
-      filter brightness(.95)
+      +above('md')
+        filter brightness(.95)
   .CollapseBody
     overflow: hidden;
     transitionAll();

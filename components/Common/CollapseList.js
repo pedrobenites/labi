@@ -45,7 +45,7 @@ const CollapseItem = ({ children, color, full, open, step, title, onClick, compo
         onClick={onClick}
         step={step}
         title={title} />
-      <div className="CollapseBody" style={{ maxHeight: open ? 1000 : 0 }}>
+      <div className="CollapseBody" style={{ maxHeight: open ? 1000 : 0, backgroundColor: color }}>
         <Component {...props}>
           {children}
         </Component>
